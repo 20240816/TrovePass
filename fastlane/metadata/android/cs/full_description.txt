@@ -1,0 +1,27 @@
+TrovePass odvozuje heslo pro každý váš web a aplikaci z jediného hlavního hesla — offline, bez účtu, jen v zařízení.
+
+CO DĚLÁ
+
+* Odvozuje heslo webu z vašeho hlavního hesla: stejný web, přihlašovací jméno a volby dají vždy stejné heslo — na jakémkoli zařízení, aniž by se něco ukládalo.
+* Pamatuje si web, přihlašovací jméno a volby, které jste použili, takže si nikdy nemusíte pamatovat počítadlo ani znakové sady za heslem.
+* Uloží heslo jen tehdy, když stisknete Uložit, a uložené heslo zapečetí klíčem, který drží toto zařízení.
+* Ukazuje otisk vašeho hlavního hesla — čtvercovou dlaždici ve dvou barvách — aby byla překlep vidět dřív, než se odvodí špatné heslo.
+* Mluví 85 jazyky a nechce žádné oprávnění.
+
+CO NEDĚLÁ
+
+* Žádný účet, žádné přihlašování, žádné synchronizace, žádná telemetrie, žádné analýzy.
+* Žádný síťový kód a žádné deklarované oprávnění: není tu nic, co by mohlo něco někam odeslat.
+* Hlavní heslo se nikdy neukládá, v žádné podobě. Nic po vás ani nechce nic odemykat — uložená hesla jsou zapečetěna klíčem, který zařízení nikdy neopustí.
+
+STEJNÁ HESLA JAKO LESSPASS
+
+Obě aplikace odvozují heslo ze stejných vstupů naprosto stejně, včetně zvláštností, takže heslo vytvořené v LessPass je heslo, které vám TrovePass dá. Toto je nezávislá implementace zveřejněného formátu, ne jeho fork.
+
+PRO KOHO JE
+
+Pro každého, kdo si raději pamatuje jedno hlavní heslo místo padesáti: název webu a hlavní heslo stačí — na jakémkoli zařízení, bez zakládání účtu a bez něčeho, co by se ztratilo s telefonem.
+
+LICENCE
+
+GPL-3.0-or-later. Úplný zdrojový kód této aplikace je zveřejněn pod touto licencí.

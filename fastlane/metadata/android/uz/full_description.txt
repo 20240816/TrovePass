@@ -1,0 +1,27 @@
+TrovePass har bir saytingiz va ilovangiz uchun parolni bitta asosiy paroldan yaratadi — oflayn, hisobsiz, faqat qurilmaning o'zida.
+
+NIMA QILADI
+
+* Sayt parolini asosiy parolingizdan yaratadi: bir xil sayt, bir xil login va bir xil sozlamalar har doim bir xil parol beradi — qaysi qurilmada bo'lmasin, hech narsa saqlanmaydi.
+* Foydalangan saytingizni, loginingizni va sozlamalaringizni eslab qoladi, shuning uchun parol ortidagi hisoblagich yoki belgi sinflarini hech qachon yodda saqlash shart emas.
+* Parolni faqat Saqlash tugmasini bosganingizda saqlaydi va saqlangan narsani shu qurilma ushlab turgan kalit bilan muhrlaydi.
+* Asosiy parolingizning izini ko'rsatadi — ikki rangli kvadrat kafel — noto'g'ri parol yaratilishidan oldin terish xatosi ko'rinishi uchun.
+* 85 tilda gapiradi va birorta ham ruxsat so'ramaydi.
+
+NIMA QILMAYDI
+
+* Hisob yo'q, kirish yo'q, sinxronlash yo'q, telemetriya yo'q, tahlil yo'q.
+* Tarmoq kodi yo'q va e'lon qilingan ruxsat ham yo'q: bu yerda biror narsani biror joyga yubora oladigan hech narsa yo'q.
+* Asosiy parol hech qachon, hech qanday shaklda saqlanmaydi. Hech narsa sizdan biror narsani ochishni ham so'ramaydi — saqlangan parollar qurilmani hech qachon tark etmaydigan kalit bilan muhrlangan.
+
+LESSPASS BILAN BIR XIL PAROLLAR
+
+Ikkala ilova ham parolni bir xil ma'lumotlardan mutlaqo bir xil usulda yaratadi, g'alati jihatlari bilan birga, shuning uchun LessPass'da yaratgan parolingiz TrovePass sizga bergan paroldir. Bu e'lon qilingan formatning mustaqil amalga oshirilishi, uning shoxobchasi emas.
+
+KIMLAR UCHUN
+
+Ellikta parol o'rniga bitta asosiy parolni yodda saqlashni afzal ko'rgan har bir kishi uchun: sayt nomi va asosiy parol yetarli — qaysi qurilmada bo'lmasin, hisob ochmasdan va telefon bilan birga yo'qoladigan hech narsasiz.
+
+LITSENZIYA
+
+GPL-3.0-or-later. Bu ilovaning to'liq manba kodi shu litsenziya ostida e'lon qilingan.

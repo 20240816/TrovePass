@@ -1,0 +1,27 @@
+TrovePass ji bo her malper û sepana te şîfreyê ji şîfreyeke sereke derdixe — bê înternet, bê hesab, tenê di cîhazê de.
+
+ÇI DIKE
+
+* Şîfreya malperê ji şîfreya te ya sereke derdixe: heman malper, heman navê têketinê û heman vebijêrk her carê heman şîfreyê didin — li ser her cîhazê, bêyî ku tiştek were tomarkirin.
+* Malper, navê têketinê û vebijêrkên ku te bi kar anîn tîne bîra xwe, ji ber vê yekê tu carî ne hewce ye ku te jimêrkera an komên tîpan ên li pişt şîfreyê ji bîr bikî.
+* Şîfreyê tenê gava ku tu Tomar bike bikirtînî tomar dike, û ya tomarkirî bi kilîda ku ev cîhaz digire mohr dike.
+* Şopa şîfreya te ya sereke nîşan dide — kevirek çargoşe bi du rengan — da ku çewtiya tîpkirinê berî derxistina şîfreya şaş were dîtin.
+* Bi 85 zimanan diaxive û tu destûrê naxwaze.
+
+ÇI NAKE
+
+* Ne hesab, ne têketin, ne hevdemkirin, ne telemetrî, ne analîtîk.
+* Ne koda torê û ne jî destûreke danezanî: li vir tiştek tune ku bikaribe tiştekî bigihîne cihekî.
+* Şîfreya sereke qet, bi tu awayî nayê tomarkirin. Tiştek jî ji te naxwaze ku tiştekî vekî — şîfreyên tomarkirî bi kilîdekê mohr in ku qet cîhazê bi cih nahêle.
+
+HEMAN ŞÎFREYÊN WEK LESSPASS
+
+Her du sepan bi temamî bi heman awayî şîfreyê ji heman daneyan derdixin, tevî taybetmendiyan, ji ber vê yekê şîfreya ku te di LessPass de çêkir, ew şîfre ye ku TrovePass dide te. Ev bicîhkirineke serbixwe ya forma hatiye weşandin e, ne şaxek jê ye.
+
+JI BO KÊ YE
+
+Ji bo her kesê ku dixwaze li şûna pêncîyan şîfreyeke sereke ji bîr bike: navê malperê û şîfreya sereke bes in — li ser her cîhazê, bêyî vekirina hesabekê û bêyî tiştek ku bi telefonê re winda bibe.
+
+LÎSANS
+
+GPL-3.0-or-later. Koda çavkaniyê ya temam a vê sepanê di bin wê lîsansê de hatiye weşandin.

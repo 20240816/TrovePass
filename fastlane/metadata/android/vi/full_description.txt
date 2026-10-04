@@ -1,0 +1,27 @@
+TrovePass tạo mật khẩu cho từng trang và từng ứng dụng của bạn từ một mật khẩu chính duy nhất — ngoại tuyến, không cần tài khoản, chỉ trong thiết bị.
+
+VIỆC NÓ LÀM
+
+* Tạo mật khẩu của một trang từ mật khẩu chính của bạn: cùng trang, cùng tên đăng nhập và cùng tuỳ chọn luôn cho ra cùng một mật khẩu — trên bất kỳ thiết bị nào, không lưu lại gì cả.
+* Ghi nhớ trang, tên đăng nhập và tuỳ chọn bạn đã dùng, nên bạn không bao giờ phải nhớ bộ đếm hay các nhóm ký tự đằng sau một mật khẩu.
+* Chỉ lưu mật khẩu khi bạn nhấn Lưu, và niêm phong thứ được lưu bằng một khoá mà thiết bị này giữ.
+* Hiển thị dấu vết của mật khẩu chính — một ô vuông hai màu — để lỗi gõ được thấy trước khi mật khẩu sai được tạo ra.
+* Nói 85 ngôn ngữ và không xin bất kỳ quyền nào.
+
+VIỆC NÓ KHÔNG LÀM
+
+* Không tài khoản, không đăng nhập, không đồng bộ, không đo từ xa, không phân tích.
+* Không có mã mạng và không khai báo quyền nào: ở đây không có gì có thể gửi bất cứ thứ gì đi bất cứ đâu.
+* Mật khẩu chính không bao giờ được lưu, dưới bất kỳ hình thức nào. Cũng không có gì đòi bạn mở khoá thứ gì — mật khẩu đã lưu được niêm phong bằng một khoá không bao giờ rời khỏi thiết bị.
+
+CÙNG MẬT KHẨU NHƯ LESSPASS
+
+Cả hai ứng dụng tạo mật khẩu từ cùng dữ liệu theo cách hoàn toàn giống nhau, kể cả những điểm lạ, nên mật khẩu bạn tạo trong LessPass chính là mật khẩu TrovePass đưa cho bạn. Đây là một bản cài đặt độc lập của định dạng đã công bố, không phải một nhánh của nó.
+
+DÀNH CHO AI
+
+Cho bất kỳ ai thích nhớ một mật khẩu chính thay vì năm mươi: tên trang và mật khẩu chính là đủ — trên bất kỳ thiết bị nào, không phải mở tài khoản và không có gì mất đi cùng chiếc điện thoại.
+
+GIẤY PHÉP
+
+GPL-3.0-or-later. Toàn bộ mã nguồn của ứng dụng này được công bố theo giấy phép đó.

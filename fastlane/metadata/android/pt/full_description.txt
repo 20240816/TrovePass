@@ -1,0 +1,27 @@
+O TrovePass deriva uma palavra-passe para cada sítio e aplicação a partir de uma única palavra-passe mestra — offline, sem conta, apenas no dispositivo.
+
+O QUE FAZ
+
+* Deriva a palavra-passe de um sítio a partir da sua palavra-passe mestra: o mesmo sítio, o mesmo utilizador e as mesmas opções dão sempre a mesma palavra-passe — em qualquer dispositivo, sem guardar nada.
+* Lembra-se do sítio, do utilizador e das opções que usou, por isso nunca precisa de decorar o contador nem as classes de caracteres por trás de uma palavra-passe.
+* Só guarda uma palavra-passe quando prime Guardar, e sela o que guarda com uma chave que este dispositivo conserva.
+* Mostra um vestígio da sua palavra-passe mestra — um ladrilho quadrado em duas cores — para que um erro de escrita se veja antes de ser derivada a palavra-passe errada.
+* Fala 85 idiomas e não pede uma única permissão.
+
+O QUE NÃO FAZ
+
+* Sem conta, sem início de sessão, sem sincronização, sem telemetria, sem análise.
+* Sem código de rede e sem qualquer permissão declarada: aqui não há nada que possa enviar coisa alguma para lado nenhum.
+* A palavra-passe mestra nunca é guardada, sob forma alguma. Nada lhe pede para desbloquear coisa alguma — as palavras-passe guardadas são seladas com uma chave que nunca sai do dispositivo.
+
+AS MESMAS PALAVRAS-PASSE DO LESSPASS
+
+Ambas as aplicações derivam a palavra-passe dos mesmos dados exatamente da mesma maneira, incluindo as peculiaridades, por isso uma palavra-passe criada no LessPass é a palavra-passe que o TrovePass lhe dá. Esta é uma implementação independente do formato publicado, não uma derivação dele.
+
+PARA QUEM É
+
+Para quem prefere decorar uma palavra-passe mestra em vez de cinquenta: o nome do sítio e a palavra-passe mestra bastam — em qualquer dispositivo, sem criar conta e sem nada que se perca com o telemóvel.
+
+LICENÇA
+
+GPL-3.0-or-later. O código-fonte completo desta aplicação é publicado ao abrigo dessa licença.

@@ -1,0 +1,27 @@
+TrovePass lei 'n wagwoord vir elkeen van jou webwerwe en programme uit een hoofwagwoord af — vanlyn, sonder 'n rekening, net op die toestel.
+
+WAT DIT DOEN
+
+* Lei 'n webwerf se wagwoord uit jou hoofwagwoord af: dieselfde webwerf, aanmelding en opsies gee altyd dieselfde wagwoord, op enige toestel, met niks gestoor.
+* Onthou die webwerf, aanmelding en opsies wat jy gebruik het, sodat jy nooit die teller en die karakterklasse agter 'n wagwoord hoef te onthou nie.
+* Stoor 'n wagwoord net wanneer jy op Stoor druk, en verseël wat jy stoor met 'n sleutel wat hierdie toestel hou.
+* Wys 'n vingerafdruk van jou hoofwagwoord — 'n vierkantige teël in twee kleure — sodat 'n tikfout sigbaar is voordat dit die verkeerde wagwoord aflei.
+* Praat 85 tale en vra geen toestemming hoegenaamd nie.
+
+WAT DIT NIE DOEN NIE
+
+* Geen rekening, geen aanmelding, geen sinchronisasie, geen telemetrie, geen analytics nie.
+* Geen netwerkkode nie, en geen toestemming verklaar nie: hier is niks wat enigiets ergens heen kan stuur nie.
+* Die hoofwagwoord word nooit gestoor nie, in enige vorm. Niks vra jou ook om enigiets te ontsluit nie — gestoorde wagwoorde is verseël met 'n sleutel wat nooit die toestel verlaat nie.
+
+DIESELFDE WAGWOORDE AS LESSPASS
+
+Albei programme lei 'n wagwoord uit dieselfde insette op presies dieselfde manier af, eienaardighede ingesluit, so 'n wagwoord wat jy met LessPass geskep het, is die wagwoord wat TrovePass vir jou gee. Dit is 'n onafhanklike implementering van die gepubliseerde formaat, nie 'n vurk nie.
+
+VIR WIE DIT IS
+
+Enigiemand wat liewer een hoofwagwoord as vyftig wil onthou: 'n webwerfnaam en die hoofwagwoord is genoeg, op enige toestel, met geen rekening om te skep en niks om te verloor as die foon verlore raak nie.
+
+LISENSIE
+
+GPL-3.0-or-later. Die volledige bronkode van hierdie program word onder daardie lisensie gepubliseer.

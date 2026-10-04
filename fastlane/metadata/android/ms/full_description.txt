@@ -1,0 +1,27 @@
+TrovePass memperoleh kata laluan untuk setiap tapak dan aplikasi anda daripada satu kata laluan induk — luar talian, tanpa akaun, hanya dalam peranti.
+
+APA YANG DILAKUKAN
+
+* Memperoleh kata laluan sesuatu tapak daripada kata laluan induk anda: tapak, nama pengguna dan pilihan yang sama sentiasa menghasilkan kata laluan yang sama — pada mana-mana peranti, tanpa menyimpan apa-apa.
+* Mengingati tapak, nama pengguna dan pilihan yang anda gunakan, jadi anda tidak perlu mengingati pembilang atau kelas aksara di sebalik kata laluan.
+* Menyimpan kata laluan hanya apabila anda menekan Simpan, dan memeteraikan yang disimpan dengan kunci yang dipegang peranti ini.
+* Menunjukkan cap jari kata laluan induk anda — jubin segi empat dua warna — supaya kesilapan menaip kelihatan sebelum kata laluan yang salah diperoleh.
+* Bertutur dalam 85 bahasa dan tidak meminta sebarang kebenaran.
+
+APA YANG TIDAK DILAKUKAN
+
+* Tiada akaun, tiada log masuk, tiada penyegerakan, tiada telemetri, tiada analitik.
+* Tiada kod rangkaian dan tiada kebenaran yang diisytiharkan: tiada apa-apa di sini yang boleh menghantar apa-apa ke mana-mana.
+* Kata laluan induk tidak pernah disimpan, dalam apa jua bentuk. Tiada apa-apa juga meminta anda membuka kunci apa-apa — kata laluan yang disimpan dimeteraikan dengan kunci yang tidak pernah keluar dari peranti.
+
+KATA LALUAN YANG SAMA SEPERTI LESSPASS
+
+Kedua-dua aplikasi memperoleh kata laluan daripada input yang sama dengan cara yang sama sekali, termasuk keanehannya, jadi kata laluan yang anda cipta dalam LessPass ialah kata laluan yang TrovePass berikan kepada anda. Ini pelaksanaan bebas bagi format yang diterbitkan, bukan cabang daripadanya.
+
+UNTUK SIAPA
+
+Untuk sesiapa yang lebih suka mengingati satu kata laluan induk daripada lima puluh: nama tapak dan kata laluan induk sudah memadai — pada mana-mana peranti, tanpa membuka akaun dan tanpa apa-apa yang hilang bersama telefon.
+
+LESEN
+
+GPL-3.0-or-later. Kod sumber lengkap aplikasi ini diterbitkan di bawah lesen itu.

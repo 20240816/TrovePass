@@ -1,0 +1,27 @@
+TrovePass leitet das Passwort für jede deiner Websites und Apps aus einem einzigen Master-Passwort ab — offline, ohne Konto, allein auf dem Gerät.
+
+WAS ES TUT
+
+* Leitet das Passwort einer Seite aus deinem Master-Passwort ab: dieselbe Seite, derselbe Login und dieselben Optionen ergeben immer dasselbe Passwort, auf jedem Gerät, ohne dass etwas gespeichert wird.
+* Merkt sich die Seite, den Login und die Optionen, die du benutzt hast — du musst dir den Zähler und die Zeichenklassen hinter einem Passwort nie merken.
+* Speichert ein Passwort nur, wenn du darauf „Speichern“ drückst, und versiegelt das Gespeicherte mit einem Schlüssel, den nur dieses Gerät hält.
+* Zeigt einen Fingerabdruck deines Master-Passworts — eine quadratische Kachel in zwei Farben —, damit ein Tippfehler sichtbar ist, bevor das falsche Passwort entsteht.
+* Spricht 85 Sprachen und verlangt keinerlei Berechtigung.
+
+WAS ES NICHT TUT
+
+* Kein Konto, keine Anmeldung, keine Synchronisation, keine Telemetrie, keine Analyse.
+* Kein Netzwerkcode und keine deklarierte Berechtigung: Hier gibt es nichts, was irgendetwas irgendwohin senden könnte.
+* Das Master-Passwort wird niemals gespeichert, in keiner Form. Nichts verlangt von dir, etwas zu entsperren — gespeicherte Passwörter sind mit einem Schlüssel versiegelt, der das Gerät nie verlässt.
+
+DIESELBEN PASSWÖRTER WIE LESSPASS
+
+Beide Apps leiten ein Passwort aus denselben Eingaben auf genau dieselbe Weise ab, Eigenheiten inklusive: Ein Passwort, das du mit LessPass erzeugt hast, ist das Passwort, das TrovePass dir gibt. Dies ist eine unabhängige Umsetzung des veröffentlichten Formats, kein Fork.
+
+FÜR WEN ES IST
+
+Für alle, die lieber ein Master-Passwort behalten als fünfzig: ein Seitenname und das Master-Passwort genügen, auf jedem Gerät, ohne Konto und ohne Verlust, wenn das Telefon verloren geht.
+
+LIZENZ
+
+GPL-3.0-or-later. Der vollständige Quelltext dieser App ist unter dieser Lizenz veröffentlicht.

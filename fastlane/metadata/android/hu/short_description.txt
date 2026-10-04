@@ -1,0 +1,1 @@
+Offline jelszógenerátor — egy fő jelszó minden oldalhoz

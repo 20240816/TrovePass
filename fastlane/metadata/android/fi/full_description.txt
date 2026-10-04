@@ -1,0 +1,27 @@
+TrovePass johtaa yhdestä pääsalasanasta salasanan jokaiselle sivustollesi ja sovelluksellesi — offline, ilman tiliä, vain laitteessa.
+
+MITÄ SE TEKEE
+
+* Johtaa sivuston salasanan pääsalasanastasi: sama sivusto, sama käyttäjätunnus ja samat asetukset antavat aina saman salasanan — millä tahansa laitteella, ilman että mitään tallennetaan.
+* Muistaa sivuston, käyttäjätunnuksen ja asetukset, joita käytit, joten salasanan takana olevaa laskuria tai merkkiluokkia ei tarvitse koskaan muistaa.
+* Tallentaa salasanan vain, kun painat Tallenna, ja sinetöi tallennetun tämän laitteen hallussa olevalla avaimella.
+* Näyttää jäljen pääsalasanastasi — kaksivärisen neliön — jotta kirjoitusvirhe näkyy ennen kuin väärä salasana johdetaan.
+* Puhuu 85 kieltä eikä pyydä yhtäkään lupaa.
+
+MITÄ SE EI TEE
+
+* Ei tiliä, ei kirjautumista, ei synkronointia, ei telemetriaa, ei analytiikkaa.
+* Ei verkkokoodia eikä yhtään ilmoitettua lupaa: täällä ei ole mitään, mikä voisi lähettää mitään minnekään.
+* Pääsalasanaa ei tallenneta koskaan, missään muodossa. Mikään ei myöskään pyydä sinua avaamaan lukkoa — tallennetut salasanat on sinetöity avaimella, joka ei koskaan poistu laitteesta.
+
+SAMAT SALASANAT KUIN LESSPASS
+
+Molemmat sovellukset johtavat salasanan samoista syötteistä täsmälleen samalla tavalla, omituisuudet mukaan lukien, joten LessPassissa luotu salasana on se salasana, jonka TrovePass sinulle antaa. Tämä on julkaistun muodon itsenäinen toteutus, ei sen haarautuma.
+
+KENELLE SE ON
+
+Kaikille, jotka mieluummin muistavat yhden pääsalasanan kuin viisikymmentä: sivuston nimi ja pääsalasana riittävät — millä tahansa laitteella, ilman tilin luomista ja ilman mitään, mikä katoaisi puhelimen mukana.
+
+LISENSSI
+
+GPL-3.0-or-later. Tämän sovelluksen täydellinen lähdekoodi on julkaistu kyseisellä lisenssillä.

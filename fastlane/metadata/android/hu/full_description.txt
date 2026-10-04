@@ -1,0 +1,27 @@
+A TrovePass egyetlen fő jelszóból származtat jelszót minden oldaladhoz és alkalmazásodhoz — offline, fiók nélkül, csak az eszközön.
+
+MIT TESZ
+
+* Az oldal jelszavát a fő jelszavadból származtatja: ugyanaz az oldal, ugyanaz a bejelentkezés és ugyanazok a beállítások mindig ugyanazt a jelszót adják — bármely eszközön, anélkül hogy bármit eltárolna.
+* Megjegyzi az oldalt, a bejelentkezést és a beállításokat, így soha nem kell fejben tartanod a jelszó mögötti számlálót vagy karakterosztályokat.
+* Jelszót csak akkor ment, amikor a Mentés gombra nyomsz, a mentettet pedig az eszközön őrzött kulccsal pecsételi le.
+* Megmutatja a fő jelszavad lenyomatát — egy kétszínű négyzetes csempét —, hogy az elgépelés még a rossz jelszó származtatása előtt látszódjon.
+* 85 nyelven beszél, és egyetlen engedélyt sem kér.
+
+MIT NEM TESZ
+
+* Nincs fiók, nincs bejelentkezés, nincs szinkronizálás, nincs telemetria, nincs analitika.
+* Nincs hálózati kód, és nincs bejelentett engedély: itt nincs semmi, ami bármit bárhová elküldhetne.
+* A fő jelszó soha, semmilyen formában nem kerül tárolásra. Semmi nem kéri azt sem, hogy zárj fel valamit — a mentett jelszavakat olyan kulcs pecsételi le, amely soha nem hagyja el az eszközt.
+
+UGYANAZOK A JELSZAVAK, MINT A LESSPASS-NÁL
+
+Mindkét alkalmazás pontosan ugyanúgy származtat jelszót ugyanazokból a bemenetekből, a furcsaságokat is beleértve, így a LessPassban létrehozott jelszó az a jelszó, amelyet a TrovePass ad neked. Ez a közzétett formátum független megvalósítása, nem annak elágazása.
+
+KINEK SZÓL
+
+Mindenkinek, aki inkább egy fő jelszót jegyez meg ötven helyett: az oldal neve és a fő jelszó elég — bármely eszközön, fiók létrehozása nélkül és anélkül, hogy a telefonnal bármi elveszne.
+
+LICENC
+
+GPL-3.0-or-later. Az alkalmazás teljes forráskódja e licenc alatt jelent meg.

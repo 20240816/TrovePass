@@ -1,0 +1,27 @@
+TrovePass izvodi zaporku za svako tvoje web-mjesto i aplikaciju iz jedne glavne zaporke — izvanmrežno, bez računa, samo u uređaju.
+
+ŠTO RADI
+
+* Izvodi zaporku web-mjesta iz tvoje glavne zaporke: isto web-mjesto, isto korisničko ime i iste postavke uvijek daju istu zaporku — na bilo kojem uređaju, bez spremanja ičega.
+* Pamti web-mjesto, korisničko ime i postavke koje si upotrijebio, pa nikada ne moraš pamtiti brojač ni razrede znakova iza zaporke.
+* Sprema zaporku samo kad pritisneš Spremi, a spremljeno zapečati ključem koji drži ovaj uređaj.
+* Prikazuje otisak tvoje glavne zaporke — četvrtastu pločicu u dvije boje — da se pogreška pri tipkanju vidi prije nego što se izvede pogrešna zaporka.
+* Govori 85 jezika i ne traži nijednu dozvolu.
+
+ŠTO NE RADI
+
+* Bez računa, bez prijave, bez sinkronizacije, bez telemetrije, bez analitike.
+* Bez mrežnog koda i bez ijedne deklarirane dozvole: ovdje nema ničega što bi moglo nešto nekamo poslati.
+* Glavna zaporka nikada se ne sprema, ni u kojem obliku. Ništa te ne traži ni da nešto otključaš — spremljene zaporke zapečaćene su ključem koji nikada ne napušta uređaj.
+
+ISTE ZAPORKE KAO LESSPASS
+
+Obje aplikacije izvode zaporku iz istih ulaznih podataka posve jednako, uključujući i posebnosti, pa je zaporka koju si stvorio u LessPassu zaporka koju ti TrovePass daje. Ovo je neovisna implementacija objavljenog formata, a ne njegov ogranak.
+
+ZA KOGA JE
+
+Za svakoga kome je draže zapamtiti jednu glavnu zaporku umjesto pedeset: naziv web-mjesta i glavna zaporka dovoljni su — na bilo kojem uređaju, bez otvaranja računa i bez ičega što bi se izgubilo s telefonom.
+
+LICENCIJA
+
+GPL-3.0-or-later. Cijeli izvorni kod ove aplikacije objavljen je pod tom licencijom.

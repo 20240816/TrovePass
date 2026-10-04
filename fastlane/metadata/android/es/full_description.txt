@@ -1,0 +1,27 @@
+TrovePass deriva la contraseña de cada uno de tus sitios y aplicaciones a partir de una sola contraseña maestra: sin conexión, sin cuenta y solo en el dispositivo.
+
+QUÉ HACE
+
+* Deriva la contraseña de un sitio a partir de tu contraseña maestra: el mismo sitio, el mismo usuario y las mismas opciones producen siempre la misma contraseña, en cualquier dispositivo y sin guardar nada.
+* Recuerda el sitio, el usuario y las opciones que usaste, así que nunca tienes que recordar el contador ni las clases de caracteres que hay detrás de una contraseña.
+* Solo guarda una contraseña cuando pulsas «Guardar», y sella lo guardado con una clave que solo tiene este dispositivo.
+* Muestra una huella de tu contraseña maestra —una tesela cuadrada en dos colores— para que una errata se vea antes de derivar la contraseña equivocada.
+* Habla 85 idiomas y no pide ningún permiso.
+
+QUÉ NO HACE
+
+* Ni cuenta, ni inicio de sesión, ni sincronización, ni telemetría, ni analítica.
+* Ni código de red ni permisos declarados: aquí no hay nada que pueda enviar nada a ningún sitio.
+* La contraseña maestra nunca se guarda, en ninguna forma. Tampoco se te pide desbloquear nada: las contraseñas guardadas van selladas con una clave que nunca sale del dispositivo.
+
+LAS MISMAS CONTRASEÑAS QUE LESSPASS
+
+Ambas aplicaciones derivan la contraseña de las mismas entradas exactamente de la misma manera, rarezas incluidas: una contraseña generada con LessPass es la que te da TrovePass. Esta es una implementación independiente del formato publicado, no un fork.
+
+PARA QUIÉN ES
+
+Para quien prefiere recordar una contraseña maestra en lugar de cincuenta: con el nombre del sitio y la contraseña maestra basta, en cualquier dispositivo, sin crear ninguna cuenta y sin perder nada si se pierde el teléfono.
+
+LICENCIA
+
+GPL-3.0-or-later. El código fuente completo de esta aplicación se publica bajo esa licencia.

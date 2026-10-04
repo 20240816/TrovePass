@@ -1,0 +1,27 @@
+TrovePass menurunkan sandi untuk setiap situs dan aplikasi Anda dari satu sandi utama — luring, tanpa akun, hanya di perangkat.
+
+APA YANG DILAKUKAN
+
+* Menurunkan sandi sebuah situs dari sandi utama Anda: situs, nama pengguna, dan pilihan yang sama selalu menghasilkan sandi yang sama — di perangkat mana pun, tanpa menyimpan apa pun.
+* Mengingat situs, nama pengguna, dan pilihan yang Anda pakai, jadi Anda tidak perlu pernah mengingat penghitung atau kelas karakter di balik sebuah sandi.
+* Hanya menyimpan sandi saat Anda menekan Simpan, dan menyegel yang tersimpan dengan kunci yang dipegang perangkat ini.
+* Menampilkan jejak sidik jari sandi utama Anda — ubin persegi dua warna — agar salah ketik terlihat sebelum sandi yang keliru diturunkan.
+* Berbicara 85 bahasa dan tidak meminta satu pun izin.
+
+APA YANG TIDAK DILAKUKAN
+
+* Tanpa akun, tanpa masuk, tanpa sinkronisasi, tanpa telemetri, tanpa analitik.
+* Tanpa kode jaringan dan tanpa izin yang dideklarasikan: tidak ada apa pun di sini yang bisa mengirim sesuatu ke mana pun.
+* Sandi utama tidak pernah disimpan, dalam bentuk apa pun. Tidak ada yang meminta Anda membuka kunci apa pun — sandi yang tersimpan disegel dengan kunci yang tidak pernah meninggalkan perangkat.
+
+SANDI YANG SAMA DENGAN LESSPASS
+
+Kedua aplikasi menurunkan sandi dari masukan yang sama dengan cara yang persis sama, termasuk keanehannya, jadi sandi yang Anda buat di LessPass adalah sandi yang TrovePass berikan kepada Anda. Ini implementasi mandiri dari format yang diterbitkan, bukan turunannya.
+
+UNTUK SIAPA
+
+Untuk siapa pun yang lebih suka mengingat satu sandi utama daripada lima puluh: nama situs dan sandi utama sudah cukup — di perangkat mana pun, tanpa membuat akun dan tanpa sesuatu yang hilang bersama ponsel.
+
+LISENSI
+
+GPL-3.0-or-later. Kode sumber lengkap aplikasi ini diterbitkan di bawah lisensi tersebut.

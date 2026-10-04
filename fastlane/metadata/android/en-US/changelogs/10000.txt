@@ -1,0 +1,1 @@
+First release. Derives a site's password offline from one master password, byte-identical to the LessPass format; remembers the sites and options you used; keeps the passwords you save in this device's own sealed store; a visual fingerprint makes a mistyped master visible. 85 languages. No accounts, no network code, no permission of any kind.

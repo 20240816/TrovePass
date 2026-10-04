@@ -1,0 +1,27 @@
+TrovePass härleder ett lösenord för varje webbplats och app du har från ett enda huvudlösenord — offline, utan konto, bara i enheten.
+
+VAD DEN GÖR
+
+* Härleder en webbplats lösenord från ditt huvudlösenord: samma webbplats, samma inloggning och samma inställningar ger alltid samma lösenord — på vilken enhet som helst, utan att spara något.
+* Kommer ihåg webbplatsen, inloggningen och inställningarna du använde, så du behöver aldrig hålla räknaren eller teckenklasserna bakom ett lösenord i minnet.
+* Sparar ett lösenord bara när du trycker Spara, och förseglar det sparade med en nyckel som den här enheten håller.
+* Visar ett avtryck av ditt huvudlösenord — en fyrkantig bricka i två färger — så att ett skrivfel syns innan fel lösenord härleds.
+* Talar 85 språk och begär inte ett enda tillstånd.
+
+VAD DEN INTE GÖR
+
+* Inget konto, ingen inloggning, ingen synkronisering, ingen telemetri, ingen analys.
+* Ingen nätverkskod och inget deklarerat tillstånd: här finns inget som kan skicka något någonstans.
+* Huvudlösenordet sparas aldrig, i någon form. Inget ber dig heller låsa upp något — sparade lösenord är förseglade med en nyckel som aldrig lämnar enheten.
+
+SAMMA LÖSENORD SOM LESSPASS
+
+Båda apparna härleder ett lösenord från samma indata på exakt samma sätt, egenheterna inräknade, så ett lösenord du skapade i LessPass är det lösenord TrovePass ger dig. Detta är en oberoende implementering av det publicerade formatet, inte en förgrening av det.
+
+FÖR VEM DEN ÄR
+
+För alla som hellre minns ett huvudlösenord än femtio: webbplatsens namn och huvudlösenordet räcker — på vilken enhet som helst, utan att skapa ett konto och utan något som går förlorat med telefonen.
+
+LICENS
+
+GPL-3.0-or-later. Hela källkoden för den här appen publiceras under den licensen.

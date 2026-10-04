@@ -1,0 +1,27 @@
+O TrovePass deriva a senha de cada um dos seus sites e aplicativos a partir de uma única senha mestra — offline, sem conta e apenas no aparelho.
+
+O QUE ELE FAZ
+
+* Deriva a senha de um site a partir da sua senha mestra: o mesmo site, o mesmo login e as mesmas opções sempre produzem a mesma senha, em qualquer aparelho, sem guardar nada.
+* Lembra o site, o login e as opções que você usou, então você nunca precisa recordar o contador nem as classes de caracteres por trás de uma senha.
+* Só guarda uma senha quando você toca em «Salvar», e sela o que foi guardado com uma chave que só este aparelho tem.
+* Mostra uma impressão digital da sua senha mestra — um mosaico quadrado em duas cores — para que um erro de digitação apareça antes de gerar a senha errada.
+* Fala 85 idiomas e não pede nenhuma permissão.
+
+O QUE ELE NÃO FAZ
+
+* Sem conta, sem login, sem sincronização, sem telemetria, sem análise.
+* Sem código de rede e sem permissão declarada: aqui não há nada que possa enviar coisa alguma para lugar nenhum.
+* A senha mestra nunca é guardada, em nenhuma forma. Nada pede que você desbloqueie nada: as senhas guardadas são seladas com uma chave que nunca sai do aparelho.
+
+AS MESMAS SENHAS DO LESSPASS
+
+Os dois aplicativos derivam a senha das mesmas entradas exatamente da mesma maneira, esquisitices incluídas: uma senha gerada no LessPass é a senha que o TrovePass entrega. Esta é uma implementação independente do formato publicado, não um fork.
+
+PARA QUEM É
+
+Para quem prefere lembrar de uma senha mestra em vez de cinquenta: o nome do site e a senha mestra bastam, em qualquer aparelho, sem criar conta e sem perder nada se o celular sumir.
+
+LICENÇA
+
+GPL-3.0-or-later. O código-fonte completo deste aplicativo é publicado sob essa licença.

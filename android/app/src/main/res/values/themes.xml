@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TrovePass" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/trovepass_chrome</item>
+        <item name="android:statusBarColor">@color/trovepass_chrome</item>
+        <item name="android:navigationBarColor">@color/trovepass_chrome</item>
+
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">@bool/trovepass_light_bars</item>
+    </style>
+</resources>

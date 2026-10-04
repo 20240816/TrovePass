@@ -1,0 +1,27 @@
+TrovePass odvodzuje heslo pre každú tvoju stránku a aplikáciu z jediného hlavného hesla — offline, bez účtu, len v zariadení.
+
+ČO ROBÍ
+
+* Odvodzuje heslo stránky z tvojho hlavného hesla: tá istá stránka, to isté prihlasovacie meno a tie isté nastavenia dávajú vždy to isté heslo — na akomkoľvek zariadení, bez uloženia čohokoľvek.
+* Pamätá si stránku, prihlasovacie meno a nastavenia, ktoré si použil, takže si nikdy nemusíš pamätať počítadlo ani znakové triedy za heslom.
+* Uloží heslo len vtedy, keď stlačíš Uložiť, a uložené zapečatí kľúčom, ktorý drží toto zariadenie.
+* Zobrazuje odtlačok tvojho hlavného hesla — dvojfarebnú štvorcovú dlaždicu — aby bola preklep vidieť skôr, než sa odvodí nesprávne heslo.
+* Hovorí 85 jazykmi a nežiada ani jedno povolenie.
+
+ČO NEROBÍ
+
+* Žiadny účet, žiadne prihlásenie, žiadna synchronizácia, žiadna telemetria, žiadna analytika.
+* Žiadny sieťový kód a žiadne deklarované povolenie: nie je tu nič, čo by mohlo niečo niekam poslať.
+* Hlavné heslo sa nikdy neukladá, v žiadnej podobe. Nič ťa ani nežiada niečo odomykať — uložené heslá sú zapečatené kľúčom, ktorý nikdy neopustí zariadenie.
+
+ROVNASKÉ HESLÁ AKO LESSPASS
+
+Obe aplikácie odvodzujú heslo z tých istých vstupov úplne rovnako, vrátane zvláštností, takže heslo vytvorené v LessPass je heslo, ktoré ti dá TrovePass. Toto je nezávislá implementácia zverejneného formátu, nie jeho odnož.
+
+PRE KOHO JE
+
+Pre každého, kto si radšej pamätá jedno hlavné heslo namiesto päťdesiatich: názov stránky a hlavné heslo stačia — na akomkoľvek zariadení, bez zakladania účtu a bez niečoho, čo by sa stratilo spolu s telefónom.
+
+LICENCIA
+
+GPL-3.0-or-later. Úplný zdrojový kód tejto aplikácie je zverejnený pod touto licenciou.

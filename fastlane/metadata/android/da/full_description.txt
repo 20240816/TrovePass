@@ -1,0 +1,27 @@
+TrovePass udleder en adgangskode til hvert af dine websteder og apps ud fra én hovedadgangskode — offline, uden konto, kun på enheden.
+
+HVAD DEN GØR
+
+* Udleder et websteds adgangskode ud fra din hovedadgangskode: samme websted, login og indstillinger giver altid samme adgangskode — på enhver enhed, uden at gemme noget.
+* Husker det websted, det login og de indstillinger, du brugte, så du aldrig skal huske tælleren eller tegnsættene bag en adgangskode.
+* Gemmer kun en adgangskode, når du trykker Gem, og forsegler det gemte med en nøgle, som denne enhed holder.
+* Viser et aftryk af din hovedadgangskode — en firkantet flise i to farver — så en tastefejl ses, før den forkerte adgangskode udledes.
+* Taler 85 sprog og beder ikke om nogen tilladelse.
+
+HVAD DEN IKKE GØR
+
+* Ingen konto, ingen login, ingen synkronisering, ingen telemetri, ingen analyse.
+* Ingen netværkskode og ingen erklæret tilladelse: der er intet her, der kan sende noget som helst nogen steder.
+* Hovedadgangskoden gemmes aldrig, i nogen form. Intet beder dig heller om at låse noget op — gemte adgangskoder er forseglet med en nøgle, der aldrig forlader enheden.
+
+SAMME ADGANGSKODER SOM LESSPASS
+
+Begge apps udleder en adgangskode af de samme input på præcis samme måde, særheder inklusive, så en adgangskode, du har oprettet i LessPass, er den adgangskode, TrovePass giver dig. Dette er en uafhængig implementering af det offentliggjorte format, ikke en fork af det.
+
+HVEM DEN ER TIL
+
+Til alle, der hellere vil huske én hovedadgangskode end halvtreds: webstedets navn og hovedadgangskoden er nok — på enhver enhed, uden at oprette en konto og uden noget at miste med telefonen.
+
+LICENS
+
+GPL-3.0-or-later. Den fulde kildekode til denne app er offentliggjort under den licens.

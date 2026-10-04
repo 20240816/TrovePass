@@ -1,0 +1,27 @@
+El TrovePass deriva una contrasenya per a cada lloc i aplicació a partir d'un sol mestre — fora de línia, sense compte, només al dispositiu.
+
+QUÈ FA
+
+* Deriva la contrasenya d'un lloc a partir del teu mestre: el mateix lloc, l'usuari i les opcions donen sempre la mateixa contrasenya — a qualsevol dispositiu, sense desar res.
+* Recorda el lloc, l'usuari i les opcions que has fet servir, així que no cal recordar mai el comptador ni les classes de caràcters que hi ha darrere d'una contrasenya.
+* Només desa una contrasenya quan prems Desa, i segella el que deses amb una clau que guarda aquest dispositiu.
+* Mostra una empremta del teu mestre — una rajola quadrada de dos colors — perquè una errada de teclat es vegi abans de derivar la contrasenya equivocada.
+* Parla 85 llengües i no demana cap permís.
+
+QUÈ NO FA
+
+* Sense compte, sense inici de sessió, sense sincronització, sense telemetria, sense analítiques.
+* Sense codi de xarxa i sense cap permís declarat: aquí no hi ha res que pugui enviar res enlloc.
+* El mestre no es desa mai, de cap manera. Tampoc no et demana que desbloquegis res — les contrasenyes desades estan segellades amb una clau que no surt mai del dispositiu.
+
+LES MATEIXES CONTRASENYES QUE LESSPASS
+
+Totes dues aplicacions deriven una contrasenya de les mateixes dades exactament igual, particularitats incloses, així que una contrasenya creada amb LessPass és la contrasenya que et dona el TrovePass. Aquesta és una implementació independent del format publicat, no una bifurcació.
+
+PER A QUI ÉS
+
+Per a qui prefereix recordar un sol mestre en lloc de cinquanta: el nom del lloc i el mestre ja basten — a qualsevol dispositiu, sense crear cap compte i sense res a perdre si es perd el telèfon.
+
+LLICÈNCIA
+
+GPL-3.0-or-later. El codi font complet d'aquesta aplicació es publica sota aquesta llicència.

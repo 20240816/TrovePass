@@ -1,0 +1,27 @@
+TrovePass-ek maisu bakar batetik eratortzen du pasahitza zure gune eta aplikazio bakoitzerako — lineaz kanpo, konturik gabe, gailuan bertan.
+
+ZER EGITEN DUEN
+
+* Gune baten pasahitza zure maisutik eratortzen du: gune, erabiltzaile eta aukera berberek pasahitz bera ematen dute beti — edozein gailutan, ezer gorde gabe.
+* Erabili duzun gunea, erabiltzailea eta aukerak gogoratzen ditu, beraz ez duzu inoiz pasahitzaren atzeko kontagailua edo karaktere-multzoak gogoratu behar.
+* Pasahitza Gorde sakatzen duzunean bakarrik gordetzen du, eta gordetakoa gailu honek duen gako batekin zigilatzen du.
+* Maisuaren hatz-marka erakusten du — bi koloretako lauki karratu bat — tekleatze-huts bat pasahitz okerra eratorri aurretik ikus dadin.
+* 85 hizkuntzatan hitz egiten du eta ez du baimenik eskatzen.
+
+ZER EZ DUEN EGITEN
+
+* Konturik ez, saio-hasierarik ez, sinkronizaziorik ez, telemetriarik ez, analitikarik ez.
+* Sare-koderik ez eta ez du baimenik adierazten: hemen ez dago ezer ezer nonbait bidal dezakeenik.
+* Maisua ez da inoiz gordetzen, inolako formatan. Ezer desblokeatzeko ere ez dizu eskatzen — gordetako pasahitzak gailutik inoiz irteten ez den gako batekin zigilatuta daude.
+
+LESSPASS-EN PASAHITZ BERBERAK
+
+Bi aplikazioek sarrera berberetatik pasahitza modu berberean eratortzen dute, bitxikeriak barne, beraz LessPass-en sortu duzun pasahitza TrovePass-ek ematen dizun pasahitza da. Hau argitaratutako formatuaren inplementazio independentea da, ez haren fork bat.
+
+NORENTZAT DEN
+
+Berrogeita hamar pasahitz beharrean maisu bat gogoratzea nahiago duenarentzat: gunearen izena eta maisua nahikoa dira — edozein gailutan, konturik sortu gabe eta telefonoarekin galtzeko ezer gabe.
+
+LIZENTZIA
+
+GPL-3.0-or-later. Aplikazio honen iturburu-kode osoa lizentzia horren pean argitaratuta dago.

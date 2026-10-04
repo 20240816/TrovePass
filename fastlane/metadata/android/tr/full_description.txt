@@ -1,0 +1,27 @@
+TrovePass, her siteniz ve uygulamanız için parolayı tek bir ana paroladan üretir — çevrimdışı, hesap olmadan, yalnızca cihazda.
+
+NE YAPAR
+
+* Bir sitenin parolasını ana parolanızdan üretir: aynı site, aynı kullanıcı adı ve aynı seçenekler her zaman aynı parolayı verir — hangi cihazda olursa olsun, hiçbir şey kaydedilmeden.
+* Kullandığınız siteyi, kullanıcı adını ve seçenekleri hatırlar, böylece bir parolanın arkasındaki sayacı veya karakter sınıflarını hiç akılda tutmanız gerekmez.
+* Parolayı yalnızca Kaydet'e bastığınızda kaydeder ve kaydettiğini bu cihazın sakladığı bir anahtarla mühürler.
+* Ana parolanızın izini gösterir — iki renkli kare bir döşeme — böylece yanlış parola üretilmeden önce yazım hatası görülür.
+* 85 dil konuşur ve hiçbir izin istemez.
+
+NE YAPMAZ
+
+* Hesap yok, oturum açma yok, eşitleme yok, telemetri yok, analitik yok.
+* Ağ kodu yok ve bildirilmiş hiçbir izin yok: burada bir şeyi bir yere gönderebilecek hiçbir şey yok.
+* Ana parola hiçbir zaman, hiçbir biçimde kaydedilmez. Hiçbir şey bir şeyin kilidini açmanızı da istemez — kaydedilen parolalar cihazdan hiç ayrılmayan bir anahtarla mühürlenir.
+
+LESSPASS İLE AYNI PAROLALAR
+
+İki uygulama da parolayı aynı girdilerden tıpatıp aynı biçimde üretir, tuhaflıklar dâhil, yani LessPass'te oluşturduğunuz parola TrovePass'in size verdiği paroladır. Bu, yayımlanmış biçimin bağımsız bir uygulamasıdır, onun bir çatalı değil.
+
+KİMLER İÇİN
+
+Elli parola yerine tek bir ana parola ezberlemeyi yeğleyen herkes için: sitenin adı ve ana parola yeter — hangi cihazda olursa olsun, hesap açmadan ve telefonla birlikte kaybedilecek bir şey olmadan.
+
+LİSANS
+
+GPL-3.0-or-later. Bu uygulamanın tüm kaynak kodu o lisans altında yayımlanmıştır.

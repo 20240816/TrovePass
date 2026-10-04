@@ -1,0 +1,27 @@
+TrovePass hutoa nenosiri kwa kila tovuti na programu yako kutoka nenosiri kuu moja — bila mtandao, bila akaunti, ndani ya kifaa pekee.
+
+INAFANYA NINI
+
+* Hutoa nenosiri la tovuti kutoka nenosiri lako kuu: tovuti ile ile, jina la kuingia lile lile na chaguo zile zile hutoa nenosiri lile lile kila wakati — kwenye kifaa chochote, bila kuhifadhi chochote.
+* Hukumbuka tovuti, jina la kuingia na chaguo ulizotumia, hivyo huna haja ya kukumbuka kihesabu au makundi ya herufi yaliyo nyuma ya nenosiri.
+* Huhifadhi nenosiri tu unapobonyeza Hifadhi, na hutilia muhuri lile lililohifadhiwa kwa ufunguo ambao kifaa hiki unashikilia.
+* Huonyesha alama ya nenosiri lako kuu — kigae cha mraba chenye rangi mbili — ili kosa la kuandika lionekane kabla ya kutolewa nenosiri lisilo sahihi.
+* Huzungumza lugha 85 na haombi idhini hata moja.
+
+HAIFANYI NINI
+
+* Hakuna akaunti, hakuna kuingia, hakuna kusawazisha, hakuna telemetri, hakuna uchanganuzi.
+* Hakuna msimbo wa mtandao na hakuna idhini iliyotangazwa: hakuna kitu hapa kinachoweza kutuma chochote mahali popote.
+* Nenosiri kuu halihifadhiwi kamwe, kwa namna yoyote. Hakuna kinachokuomba kufungua kitu pia — manenosiri yaliyohifadhiwa yametiwa muhuri kwa ufunguo ambao hautoki kwenye kifaa kamwe.
+
+MANENOSIRI YALE YALE KAMA LESSPASS
+
+Programu zote mbili hutoa nenosiri kutoka data ile ile kwa namna inayofanana kabisa, ikiwemo mambo ya ajabu, hivyo nenosiri ulilotengeneza katika LessPass ni lile lile TrovePass anayokupa. Hii ni utekelezaji huru wa muundo uliochapishwa, si tawi lake.
+
+NI YA NANI
+
+Kwa yeyote anayependa kukumbuka nenosiri kuu moja badala ya hamsini: jina la tovuti na nenosiri kuu vinatosha — kwenye kifaa chochote, bila kufungua akaunti na bila kitu kitakachopotea pamoja na simu.
+
+LESENI
+
+GPL-3.0-or-later. Msimbo kamili wa chanzo wa programu hii umechapishwa chini ya leseni hiyo.

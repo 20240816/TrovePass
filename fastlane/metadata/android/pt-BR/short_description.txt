@@ -1,0 +1,1 @@
+Gerador de senhas offline: uma senha mestra para cada site

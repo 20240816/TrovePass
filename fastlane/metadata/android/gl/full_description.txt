@@ -1,0 +1,27 @@
+TrovePass deriva un contrasinal para cada sitio e aplicación a partir dun único mestre — sen conexión, sen conta, só no dispositivo.
+
+QUE FAI
+
+* Deriva o contrasinal dun sitio a partir do teu mestre: o mesmo sitio, o mesmo usuario e as mesmas opcións dan sempre o mesmo contrasinal — en calquera dispositivo, sen gardar nada.
+* Lembra o sitio, o usuario e as opcións que usaches, así que nunca hai que lembrar o contador nin as clases de caracteres detrás dun contrasinal.
+* Só garda un contrasinal cando premes Gardar, e sela o que garda cunha chave que garda este dispositivo.
+* Amosa unha pegada do teu mestre — un cadrado de dúas cores — para que un erro de teclado se vexa antes de derivar o contrasinal equivocado.
+* Fala 85 linguas e non pide ningún permiso.
+
+QUE NON FAI
+
+* Sen conta, sen inicio de sesión, sen sincronización, sen telemetría, sen analíticas.
+* Sen código de rede e sen ningún permiso declarado: aquí non hai nada que poida enviar nada a ningún sitio.
+* O mestre non se garda nunca, de ningún xeito. Tampouco che pide desbloquear nada — os contrasinais gardados están selados cunha chave que nunca sae do dispositivo.
+
+OS MESMOS CONTRASINAIS QUE LESSPASS
+
+As dúas aplicacións derivan un contrasinal dos mesmos datos exactamente igual, particularidades incluídas, así que un contrasinal creado en LessPass é o contrasinal que che dá TrovePass. Esta é unha implementación independente do formato publicado, non unha bifurcación del.
+
+PARA QUEN É
+
+Para quen prefire lembrar un só mestre en vez de cincuenta: o nome do sitio e o mestre abondan — en calquera dispositivo, sen crear conta e sen nada que perder co teléfono.
+
+LICENZA
+
+GPL-3.0-or-later. O código fonte completo desta aplicación publícase baixo esa licenza.

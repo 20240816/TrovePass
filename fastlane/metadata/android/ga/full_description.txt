@@ -1,0 +1,27 @@
+Díorthaíonn TrovePass pasfhocal do gach suíomh agus aip atá agat ó phríomhphasfhocal amháin — as líne, gan chuntas, ar an ngléas amháin.
+
+CAD A DHÉANANN SÉ
+
+* Díorthaíonn sé pasfhocal suímh ó do phríomhphasfhocal: tugann an suíomh, an logáil isteach agus na roghanna céanna an pasfhocal céanna i gcónaí — ar aon ghléas, gan aon rud a shábháil.
+* Coinníonn sé cuimhne ar an suíomh, ar an logáil isteach agus ar na roghanna a d'úsáid tú, mar sin ní gá duit riamh an t-áiritheoir ná na haicmí carachtar taobh thiar de phasfhocal a mheabhrú.
+* Ní shábhálann sé pasfhocal ach amháin nuair a bhrúnn tú Sábháil, agus séalaíonn sé an rud a shábháiltear le heochair atá ag an ngléas seo.
+* Taispeánann sé lorg do phríomhphasfhocail — tíl chearnach in dhá dhath — ionas go bhfeicfear botún clóscríbhneoireachta sula ndíorthófar an pasfhocal mícheart.
+* Labhraíonn sé 85 teanga agus ní iarrann sé aon chead.
+
+CAD NACH NDÉANANN SÉ
+
+* Gan chuntas, gan logáil isteach, gan sioncrónú, gan teileiméadracht, gan anailísíocht.
+* Gan aon chód líonra agus gan aon chead dearbhaithe: níl aon rud anseo a d'fhéadfadh aon rud a sheoladh áit ar bith.
+* Ní shábháiltear an príomhphasfhocal riamh, in aon fhoirm. Ní iarrann aon rud ort aon rud a dhíghlasáil ach an oiread — séalaítear pasfhocail shábháilte le heochair nach bhfágann an gléas riamh.
+
+NA PASFHOCAIL CHÉANNA AGUS LESSPASS
+
+Díorthaíonn an dá aip pasfhocal ó na hionchuir chéanna ar an mbealach céanna go beacht, na haistiúlacht san áireamh, mar sin is é an pasfhocal a chruthaigh tú i LessPass an pasfhocal a thugann TrovePass duit. Is cur i bhfeidhm neamhspleách é seo ar an bhformáid a foilsíodh, ní forc uirthi.
+
+CÉ DHÓ A BHFUIL SÉ
+
+Do dhuine ar bith ar fearr leis príomhphasfhocal amháin a mheabhrú in ionad caoga: is leor ainm an tsuímh agus an príomhphasfhocal — ar aon ghléas, gan cuntas a chruthú agus gan aon rud le cailleadh leis an bhfón.
+
+CEADÚNAS
+
+GPL-3.0-or-later. Foilsítear foinsechód iomlán na haipe seo faoin gceadúnas sin.

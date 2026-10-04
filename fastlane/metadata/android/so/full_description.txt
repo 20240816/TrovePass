@@ -1,0 +1,27 @@
+TrovePass waxay ka soo saartaa eray sir ah goob kasta iyo app kasta oo aad leedahay hal eray sir ah oo keliya — offline, aan akoon lahayn, qalabka gudihiisa oo keliya.
+
+WAXA UU SAMEEYO
+
+* Wuxuu ka soo saartaa erayga sirta ah ee goobta eraygaaga sirta ah ee weyn: isla goobta, isla magaca gelitaanka iyo isla doorashooyinka waxay had iyo jeer bixiyaan isla eray sir ah — qalab kasta, iyada oo aan waxba la kaydin.
+* Wuxuu xusuustaa goobta, magaca gelitaanka iyo doorashooyinka aad isticmaashay, sidaas darteed marnaba uma baahnid inaad xusuusato tiriyaha ama qaybaha xarfaha ee ka dambeeya erayga sirta ah.
+* Wuxuu kaydiyaa eray sir ah kaliya marka aad riixdo Kaydi, wuxuuna shaabadeeyaa waxa la kaydiyay fure uu qalabkani hayo.
+* Wuxuu muujiyaa raadka eraygaaga sirta ah ee weyn — tiil laba midab ah oo labajibbaaran — si khaladka teypka loo arko ka hor inta aan la soo saarin erayga sirta ah ee khaldan.
+* Wuxuu ku hadlaa 85 luqad oo ma codsado wax fasax ah.
+
+WAXA UUSAN SAMAYN
+
+* Akoon ma jiro, gelitaan ma jiro, iswaafajin ma jiro, telemetri ma jiro, falanqayn ma jiro.
+* Koodh shabakadeed ma jiro oo fasax la sheegay ma jiro: halkan waxba kama jiraan oo wax meel u diri kara.
+* Erayga sirta ah ee weyn marnaba lama kaydiyo, qaab kasta. Waxna kama codsado inaad wax furo — erayada sirta ah ee la kaydiyay waxaa lagu shaabadeeyay fure aan marnaba qalabka ka tagin.
+
+ISLA ERAYADA SIRTA AH EE LESSPASS
+
+Labada app waxay erayga sirta ah ka soo saaraan isla xogta si isku mid ah oo sax ah, oo ay ku jiraan waxyaabaha yaabka leh, sidaas darteed erayga sirta ah ee aad ku abuurtay LessPass waa isla erayga sirta ah ee TrovePass ku siinayo. Kani waa hirgelin madax bannaan oo qaabka la daabacay ah, ma aha laan ka mid ah.
+
+LOOGU TALAGALAY
+
+Qof kasta oo doorbida inuu xusuusto hal eray sir ah oo weyn halkii konton: magaca goobta iyo erayga sirta ah ee weyn way ku filan yihiin — qalab kasta, adigoon furin akoon oo aan waxba ku lumin taleefanka.
+
+SHAXDA
+
+GPL-3.0-or-later. Koodhka isha oo dhamaystiran ee appkan waxaa lagu daabacay shaxdaas.

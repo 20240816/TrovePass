@@ -1,0 +1,621 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- SPDX-FileCopyrightText: 2026 The TrovePass contributors -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TrovePass</title>
+<meta name="description" content="Offline password generator that remembers your logins.">
+<meta name="theme-color" content="#090e12" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#e8edf1" media="(prefers-color-scheme: light)">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body class="app">
+<svg class="ico-sprite" aria-hidden="true" focusable="false">
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 6 12 6s9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.75"/></symbol>
+<symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M2.5 12S6 6 12 6c1.7 0 3.2.5 4.5 1.3M21.5 12S18 18 12 18c-1.7 0-3.2-.5-4.5-1.3"/><path d="M4.5 19.5 19.5 4.5"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11.5" height="11.5" rx="3"/><path d="M6.5 15h-1A2.5 2.5 0 0 1 3 12.5v-7A2.5 2.5 0 0 1 5.5 3h7A2.5 2.5 0 0 1 15 5.5v1"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9.5 7V5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v2"/><path d="M6.5 7l.9 12a2 2 0 0 0 2 1.9h5.2a2 2 0 0 0 2-1.9L17.5 7"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5.5v13"/><path d="M5.5 12h13"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11.2v5.3"/><path d="M12 7.9v.01"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M9.5 6.5h10"/><path d="M9.5 12h10"/><path d="M9.5 17.5h10"/><path d="M4.8 6.5h.01"/><path d="M4.8 12h.01"/><path d="M4.8 17.5h.01"/></symbol>
+<symbol id="i-tune" viewBox="0 0 24 24"><path d="M4 8.5h8.5"/><path d="M17.5 8.5H20"/><circle cx="15" cy="8.5" r="2.2"/><path d="M4 15.5h2.5"/><path d="M11.5 15.5H20"/><circle cx="9" cy="15.5" r="2.2"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="9.5" rx="2.5"/><path d="M8 10.5V7.6a4 4 0 0 1 8 0v2.9"/><path d="M12 14.4v2"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="18.5" r="2.6"/><path d="M8.4 10.8 15.6 6.7"/><path d="M8.4 13.2l7.2 4.1"/></symbol>
+<symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15.8" r="4.3"/><path d="M11.4 12.6 19.4 4.6"/><path d="M16.6 7.4l2.1 2.1"/><path d="M19.1 4.9l2 2"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5.5v13"/><path d="M15 5.5v13"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7.5 5.4 18.5 12 7.5 18.6Z"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6.5 9.5 12 15l5.5-5.5"/></symbol>
+</svg>
+<main>
+<div id="panels">
+
+<section id="panel-generate" class="panel" role="tabpanel" aria-labelledby="tab-generate" tabindex="0">
+<div class="card">
+<div class="field">
+<label class="sr-only" for="site" id="site-label" data-i18n="site.label">Site</label>
+<div class="row">
+<div class="dd grow"><input id="site" class="input" type="text" autocomplete="off" spellcheck="false"
+autocapitalize="none" autocorrect="off"
+role="combobox" aria-expanded="false" aria-controls="site-suggest" aria-autocomplete="list"
+data-i18n-placeholder="site.label" placeholder="Site">
+<ul id="site-suggest" class="dd-menu" role="listbox" aria-labelledby="site-label" hidden></ul>
+</div>
+<button id="site-reveal" class="btn icon-btn" type="button" aria-pressed="true"
+data-i18n-aria="field.toggle" data-i18n-title="field.toggle">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-eye"/></svg>
+</button>
+</div>
+</div>
+<div class="field">
+<label class="sr-only" for="login" id="login-label" data-i18n="login.label">Login</label>
+<div class="row">
+<div class="dd grow"><input id="login" class="input" type="text" autocomplete="off" spellcheck="false"
+autocapitalize="none" autocorrect="off"
+role="combobox" aria-expanded="false" aria-controls="login-suggest" aria-autocomplete="list"
+data-i18n-placeholder="login.label" placeholder="Login">
+<ul id="login-suggest" class="dd-menu" role="listbox" aria-labelledby="login-label" hidden></ul>
+</div>
+<button id="login-reveal" class="btn icon-btn" type="button" aria-pressed="true"
+data-i18n-aria="field.toggle" data-i18n-title="field.toggle">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-eye"/></svg>
+</button>
+</div>
+</div>
+<div class="field">
+<label class="sr-only" for="master" data-i18n="master.label">Master password</label>
+<div class="row">
+<div class="grow"><input id="master" class="input" type="password" autocomplete="off" spellcheck="false"
+autocapitalize="none" autocorrect="off"
+data-i18n-placeholder="master.label" placeholder="Master password"></div>
+<button id="reveal" class="btn icon-btn" type="button" aria-pressed="false"
+data-i18n-aria="master.toggle" data-i18n-title="master.toggle">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-eye"/></svg>
+</button>
+</div>
+<div id="fingerprint" class="fp"></div>
+</div>
+
+<div id="out-block" class="out-block is-empty">
+<div class="out-head">
+<span id="out-actions" class="row">
+<button id="out-reveal" class="btn icon-btn small hidden" type="button" aria-pressed="false"
+data-i18n-aria="gen.toggle" data-i18n-title="gen.toggle">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-eye"/></svg>
+</button>
+<button id="copy" class="btn small primary hidden" type="button"><svg class="ico" aria-hidden="true"><use href="#i-copy"/></svg><span data-i18n="action.copy">Copy</span></button>
+<button id="share" class="btn icon-btn small hidden" type="button" data-i18n-aria="action.share" data-i18n-title="action.share"><svg class="ico" aria-hidden="true"><use href="#i-share"/></svg></button>
+</span>
+<span id="out-share-confirm" class="row hidden">
+<button id="share-cancel" class="btn ghost small" type="button" data-i18n="action.cancel">Cancel</button>
+<button id="share-confirm" class="btn primary small" type="button" data-i18n="action.share">Share</button>
+</span>
+</div>
+<span id="out-saved" class="badge hidden" data-i18n="gen.saved">Saved entry</span>
+<div class="out-row">
+<div id="out" class="out" dir="ltr" aria-live="polite"></div>
+</div>
+</div>
+<div id="gen-actions" class="btn-row hidden">
+<button id="save" class="btn" type="button"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span data-i18n="entries.save">Save entry</span></button>
+<span id="clear-cluster" class="clear-cluster">
+<button id="clear" class="btn ghost" type="button"><span data-i18n="action.clear">Clear</span><span id="clear-left" class="clear-left"></span></button>
+<button id="clear-pause" class="btn icon-btn small" type="button" aria-pressed="false"
+data-i18n-aria="gen.pause" data-i18n-title="gen.pause">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-pause"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-play"/></svg>
+</button>
+</span>
+</div>
+<div class="btn-row">
+<button id="clear-clipboard" class="btn ghost" type="button" data-i18n="action.clearClipboard">Clear clipboard</button>
+</div>
+<button id="gen-options-link" class="btn link" type="button">
+<span data-i18n="options.title">Generator options</span>
+</button>
+
+<div id="error" class="live err" aria-live="assertive"></div>
+</div>
+</section>
+
+<section id="panel-entries" class="panel" role="tabpanel" aria-labelledby="tab-entries" tabindex="0" hidden>
+<div class="card">
+<div id="entries-tools" class="tools hidden">
+<div id="folders" class="chips" role="group" data-i18n-aria="folder.groupAria" aria-label="Folders"></div>
+<div class="disclose-area" id="folder-options-wrap">
+<button id="folder-options" class="disclose" type="button" aria-expanded="false" aria-controls="folder-options-body">
+<span data-i18n="folder.options">Folder options</span>
+<svg class="ico chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+</button>
+<div id="folder-options-body" class="stack hidden">
+<div id="folder-actions" class="row"></div>
+<div id="folder-confirm-row" class="row hidden">
+<button id="folder-delete-cancel" class="btn ghost small" type="button" data-i18n="action.cancel">Cancel</button>
+<button id="folder-delete-confirm" class="btn danger small" type="button" data-i18n="action.delete">Delete</button>
+</div>
+<p id="folder-confirm" class="note danger hidden" data-i18n="entries.confirm">This cannot be undone.</p>
+</div>
+</div>
+<div id="folder-new" class="row hidden">
+<input id="folder-name" class="input grow" type="text" maxlength="24" autocomplete="off" spellcheck="false"
+data-i18n-placeholder="folder.namePlaceholder" data-i18n-aria="folder.namePlaceholder"
+placeholder="Folder name" aria-label="Folder name">
+<button id="folder-add" class="btn small" type="button" data-i18n="action.add">Add</button>
+<button id="folder-cancel" class="btn ghost small" type="button" data-i18n="action.cancel">Cancel</button>
+</div>
+<div class="field field-inline">
+<label id="entries-sort-label" data-i18n="sort.label">Sort</label>
+<div class="dd">
+<button id="entries-sort" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="entries-sort-menu" aria-labelledby="entries-sort-label" data-value="recent">
+<span class="dd-value">Most recent</span>
+</button>
+<ul id="entries-sort-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="recent" aria-selected="true" data-i18n="sort.recent">Most recent</li>
+<li class="dd-opt" role="option" data-value="site" aria-selected="false" data-i18n="sort.site">Site</li>
+<li class="dd-opt" role="option" data-value="login" aria-selected="false" data-i18n="sort.login">Login</li>
+<li class="dd-opt" role="option" data-value="expiry" aria-selected="false" data-i18n="sort.expiry">Expiry</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="filter hidden">
+<input id="entries-filter" class="input" type="text" autocomplete="off" spellcheck="false"
+data-i18n-placeholder="list.filter" data-i18n-aria="list.filter" placeholder="Filter…" aria-label="Filter…">
+</div>
+<div id="entries" class="list" role="list"></div>
+<p id="entries-empty" class="empty empty-state" data-i18n="entries.empty">Nothing saved yet. Generate a password, then press Save entry.</p>
+<p id="entries-nomatch" class="empty hidden" role="status"></p>
+<p id="entries-unreadable" class="note warn hidden" data-i18n="entries.unreadable">These saved entries are encrypted, and this device no longer has the key that opens them — so they cannot be shown or copied. Delete all is the only way to clear the space.</p>
+</div>
+
+<div class="card">
+<h2 class="card-title">
+<button id="data-toggle" class="disclose" type="button" aria-expanded="false" aria-controls="data-body">
+<span data-i18n="entries.data">Backup and data</span>
+<svg class="ico chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+</button>
+</h2>
+<div id="data-body" class="stack hidden">
+<div class="card-head">
+<h3 class="card-title sub-title" data-i18n="settings.backup">Backup</h3>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="backup-tip"
+aria-describedby="backup-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="backup-tip" role="note" data-i18n="backup.hint">Exports every saved entry into one encrypted file. Nothing is sent anywhere — keep it safe, and Import restores it.</span>
+</span>
+</div>
+<div class="field">
+<label for="backup-password" data-i18n="backup.password">Backup password</label>
+<div class="row">
+<div class="grow"><input id="backup-password" class="input" type="password" autocomplete="new-password" spellcheck="false"
+autocapitalize="none" autocorrect="off"></div>
+<button id="backup-reveal" class="btn icon-btn" type="button" aria-pressed="false"
+data-i18n-aria="backup.showPassword" data-i18n-title="backup.showPassword">
+<svg class="ico when-hidden" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<svg class="ico when-shown" aria-hidden="true"><use href="#i-eye"/></svg>
+</button>
+</div>
+</div>
+<input type="file" id="backup-file" class="hidden" accept=".txt,.trovepass,text/plain">
+<div class="btn-row">
+<button id="backup-export" class="btn ghost" type="button" data-i18n="action.export">Export</button>
+<button id="backup-share" class="btn ghost" type="button" data-i18n="action.share">Share</button>
+<button id="backup-import" class="btn ghost" type="button" data-i18n="action.import">Import</button>
+</div>
+
+<div class="btn-row">
+<button id="clear-entries" class="btn danger" type="button" data-i18n-aria="entries.clearAria" data-i18n-title="entries.clearAria"
+aria-label="Delete all saved entries and folders"><svg class="ico" aria-hidden="true"><use href="#i-trash"/></svg><span data-i18n="entries.clear">Delete all</span></button>
+</div>
+<div id="entries-confirm-row" class="btn-row hidden">
+<button id="clear-cancel" class="btn ghost" type="button" data-i18n="action.cancel">Cancel</button>
+<button id="clear-confirm" class="btn danger" type="button" data-i18n="action.delete">Delete</button>
+</div>
+<p id="entries-confirm" class="note danger hidden" data-i18n="entries.confirm">This cannot be undone.</p>
+</div>
+</div>
+</section>
+
+<section id="panel-settings" class="panel" role="tabpanel" aria-labelledby="tab-settings" tabindex="0" hidden>
+<div class="card">
+<h2 class="card-title">
+<button id="group-appearance" class="disclose" type="button" aria-expanded="false" aria-controls="group-appearance-body">
+<span data-i18n="group.appearance">Appearance</span>
+<svg class="ico chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+</button>
+</h2>
+<div id="group-appearance-body" class="stack hidden">
+<div class="setting">
+<label id="locale-label" data-i18n="locale.label">Language</label>
+<div class="dd">
+<button id="locale" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="locale-menu" aria-labelledby="locale-label" data-value="en">
+<span class="dd-value">English</span>
+</button>
+<ul id="locale-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="en" aria-selected="true">English</li>
+<li class="dd-opt" role="option" data-value="de" aria-selected="false">Deutsch</li>
+<li class="dd-opt" role="option" data-value="es" aria-selected="false">Español</li>
+<li class="dd-opt" role="option" data-value="fr" aria-selected="false">Français</li>
+<li class="dd-opt" role="option" data-value="pt" aria-selected="false">Português</li>
+<li class="dd-opt" role="option" data-value="ru" aria-selected="false">Русский</li>
+<li class="dd-opt" role="option" data-value="zh" aria-selected="false">中文</li>
+<li class="dd-opt" role="option" data-value="zh-Hant" aria-selected="false">繁體中文</li>
+<li class="dd-opt" role="option" data-value="ja" aria-selected="false">日本語</li>
+<li class="dd-opt" role="option" data-value="it" aria-selected="false">Italiano</li>
+<li class="dd-opt" role="option" data-value="nl" aria-selected="false">Nederlands</li>
+<li class="dd-opt" role="option" data-value="pl" aria-selected="false">Polski</li>
+<li class="dd-opt" role="option" data-value="tr" aria-selected="false">Türkçe</li>
+<li class="dd-opt" role="option" data-value="id" aria-selected="false">Bahasa Indonesia</li>
+<li class="dd-opt" role="option" data-value="ko" aria-selected="false">한국어</li>
+<li class="dd-opt" role="option" data-value="vi" aria-selected="false">Tiếng Việt</li>
+<li class="dd-opt" role="option" data-value="uk" aria-selected="false">Українська</li>
+<li class="dd-opt" role="option" data-value="sv" aria-selected="false">Svenska</li>
+<li class="dd-opt" role="option" data-value="da" aria-selected="false">Dansk</li>
+<li class="dd-opt" role="option" data-value="nb" aria-selected="false">Norsk bokmål</li>
+<li class="dd-opt" role="option" data-value="fi" aria-selected="false">Suomi</li>
+<li class="dd-opt" role="option" data-value="cs" aria-selected="false">Čeština</li>
+<li class="dd-opt" role="option" data-value="el" aria-selected="false">Ελληνικά</li>
+<li class="dd-opt" role="option" data-value="ro" aria-selected="false">Română</li>
+<li class="dd-opt" role="option" data-value="ca" aria-selected="false">Català</li>
+<li class="dd-opt" role="option" data-value="ms" aria-selected="false">Bahasa Melayu</li>
+<li class="dd-opt" role="option" data-value="sw" aria-selected="false">Kiswahili</li>
+<li class="dd-opt" role="option" data-value="hi" aria-selected="false">हिन्दी</li>
+<li class="dd-opt" role="option" data-value="bn" aria-selected="false">বাংলা</li>
+<li class="dd-opt" role="option" data-value="th" aria-selected="false">ไทย</li>
+<li class="dd-opt" role="option" data-value="ar" aria-selected="false">العربية</li>
+<li class="dd-opt" role="option" data-value="fa" aria-selected="false">فارسی</li>
+<li class="dd-opt" role="option" data-value="he" aria-selected="false">עברית</li>
+<li class="dd-opt" role="option" data-value="ur" aria-selected="false">اردو</li>
+<li class="dd-opt" role="option" data-value="ta" aria-selected="false">தமிழ்</li>
+<li class="dd-opt" role="option" data-value="hu" aria-selected="false">Magyar</li>
+<li class="dd-opt" role="option" data-value="sk" aria-selected="false">Slovenčina</li>
+<li class="dd-opt" role="option" data-value="hr" aria-selected="false">Hrvatski</li>
+<li class="dd-opt" role="option" data-value="bg" aria-selected="false">Български</li>
+<li class="dd-opt" role="option" data-value="lt" aria-selected="false">Lietuvių</li>
+<li class="dd-opt" role="option" data-value="lv" aria-selected="false">Latviešu</li>
+<li class="dd-opt" role="option" data-value="et" aria-selected="false">Eesti</li>
+<li class="dd-opt" role="option" data-value="sl" aria-selected="false">Slovenščina</li>
+<li class="dd-opt" role="option" data-value="sr" aria-selected="false">Српски</li>
+<li class="dd-opt" role="option" data-value="sr-Latn" aria-selected="false">Srpski (latinica)</li>
+<li class="dd-opt" role="option" data-value="az" aria-selected="false">Azərbaycan</li>
+<li class="dd-opt" role="option" data-value="ka" aria-selected="false">ქართული</li>
+<li class="dd-opt" role="option" data-value="is" aria-selected="false">Íslenska</li>
+<li class="dd-opt" role="option" data-value="mk" aria-selected="false">Македонски</li>
+<li class="dd-opt" role="option" data-value="sq" aria-selected="false">Shqip</li>
+<li class="dd-opt" role="option" data-value="be" aria-selected="false">Беларуская</li>
+<li class="dd-opt" role="option" data-value="hy" aria-selected="false">Հայերեն</li>
+<li class="dd-opt" role="option" data-value="cy" aria-selected="false">Cymraeg</li>
+<li class="dd-opt" role="option" data-value="ga" aria-selected="false">Gaeilge</li>
+<li class="dd-opt" role="option" data-value="mt" aria-selected="false">Malti</li>
+<li class="dd-opt" role="option" data-value="eu" aria-selected="false">Euskara</li>
+<li class="dd-opt" role="option" data-value="gl" aria-selected="false">Galego</li>
+<li class="dd-opt" role="option" data-value="af" aria-selected="false">Afrikaans</li>
+<li class="dd-opt" role="option" data-value="zu" aria-selected="false">isiZulu</li>
+<li class="dd-opt" role="option" data-value="yo" aria-selected="false">Yorùbá</li>
+<li class="dd-opt" role="option" data-value="uz" aria-selected="false">O‘zbekcha</li>
+<li class="dd-opt" role="option" data-value="fil" aria-selected="false">Filipino</li>
+<li class="dd-opt" role="option" data-value="ha" aria-selected="false">Hausa</li>
+<li class="dd-opt" role="option" data-value="mr" aria-selected="false">मराठी</li>
+<li class="dd-opt" role="option" data-value="te" aria-selected="false">తెలుగు</li>
+<li class="dd-opt" role="option" data-value="gu" aria-selected="false">ગુજરાતી</li>
+<li class="dd-opt" role="option" data-value="kn" aria-selected="false">ಕನ್ನಡ</li>
+<li class="dd-opt" role="option" data-value="ml" aria-selected="false">മലയാളം</li>
+<li class="dd-opt" role="option" data-value="ne" aria-selected="false">नेपाली</li>
+<li class="dd-opt" role="option" data-value="si" aria-selected="false">සිංහල</li>
+<li class="dd-opt" role="option" data-value="km" aria-selected="false">ខ្មែរ</li>
+<li class="dd-opt" role="option" data-value="lo" aria-selected="false">ລາວ</li>
+<li class="dd-opt" role="option" data-value="my" aria-selected="false">မြန်မာ</li>
+<li class="dd-opt" role="option" data-value="am" aria-selected="false">አማርኛ</li>
+<li class="dd-opt" role="option" data-value="ti" aria-selected="false">ትግርኛ</li>
+<li class="dd-opt" role="option" data-value="so" aria-selected="false">Soomaali</li>
+<li class="dd-opt" role="option" data-value="rw" aria-selected="false">Kinyarwanda</li>
+<li class="dd-opt" role="option" data-value="sn" aria-selected="false">chiShona</li>
+<li class="dd-opt" role="option" data-value="kk" aria-selected="false">Қазақша</li>
+<li class="dd-opt" role="option" data-value="ky" aria-selected="false">Кыргызча</li>
+<li class="dd-opt" role="option" data-value="tg" aria-selected="false">Тоҷикӣ</li>
+<li class="dd-opt" role="option" data-value="ku" aria-selected="false">Kurdî</li>
+<li class="dd-opt" role="option" data-value="ckb" aria-selected="false">کوردیی ناوەندی</li>
+<li class="dd-opt" role="option" data-value="ps" aria-selected="false">پښتو</li>
+<li class="dd-opt" role="option" data-value="sd" aria-selected="false">سنڌي</li>
+</ul>
+</div>
+</div>
+<div class="setting">
+<label id="scheme-label" data-i18n="scheme.label">Theme</label>
+<div class="dd">
+<button id="scheme" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="scheme-menu" aria-labelledby="scheme-label" data-value="system">
+<span class="dd-value">System</span>
+</button>
+<ul id="scheme-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="system" aria-selected="true" data-i18n="scheme.system">System</li>
+<li class="dd-opt" role="option" data-value="light" aria-selected="false" data-i18n="scheme.light">Light</li>
+<li class="dd-opt" role="option" data-value="dark" aria-selected="false" data-i18n="scheme.dark">Dark</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<h2 class="card-title">
+<button id="group-privacy" class="disclose" type="button" aria-expanded="false" aria-controls="group-privacy-body">
+<span data-i18n="settings.advanced">Privacy</span>
+<svg class="ico chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+</button>
+</h2>
+<div id="group-privacy-body" class="stack hidden">
+<div class="setting">
+<div class="card-head">
+<label id="entry-ttl-label" data-i18n="settings.entryTtl">Passwords expire</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="ttl-tip"
+aria-describedby="ttl-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="ttl-tip" role="note" data-i18n="settings.entryTtlHint">How long a newly saved password is kept. You can change it on any entry.</span>
+</span>
+</div>
+<div class="dd">
+<button id="entry-ttl" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="entry-ttl-menu" aria-labelledby="entry-ttl-label" data-value="0">
+<span class="dd-value" data-i18n="settings.clearNever">Never</span>
+</button>
+<ul id="entry-ttl-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="0" aria-selected="true" data-i18n="settings.clearNever">Never</li>
+<li class="dd-opt" role="option" data-value="60000" aria-selected="false">1m</li>
+<li class="dd-opt" role="option" data-value="300000" aria-selected="false">5m</li>
+<li class="dd-opt" role="option" data-value="900000" aria-selected="false">15m</li>
+<li class="dd-opt" role="option" data-value="3600000" aria-selected="false">1h</li>
+<li class="dd-opt" role="option" data-value="21600000" aria-selected="false">6h</li>
+<li class="dd-opt" role="option" data-value="86400000" aria-selected="false">1d</li>
+<li class="dd-opt" role="option" data-value="604800000" aria-selected="false">7d</li>
+<li class="dd-opt" role="option" data-value="864000000" aria-selected="false">10d</li>
+<li class="dd-opt" role="option" data-value="2592000000" aria-selected="false">30d</li>
+<li class="dd-opt" role="option" data-value="7776000000" aria-selected="false">90d</li>
+<li class="dd-opt" role="option" data-value="31536000000" aria-selected="false">1y</li>
+</ul>
+</div>
+</div>
+<div class="setting">
+<div class="card-head">
+<label id="clear-after-label" data-i18n="settings.clearLabel">Clear when idle</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="clear-tip"
+aria-describedby="clear-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="clear-tip" role="note" data-i18n="settings.clearHint">After that long without typing, the site, the login, the master password and the password on screen are wiped.</span>
+</span>
+</div>
+<div class="dd">
+<button id="clear-after" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="clear-after-menu" aria-labelledby="clear-after-label" data-value="300000">
+<span class="dd-value">After 5 min</span>
+</button>
+<ul id="clear-after-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="0" aria-selected="false" data-i18n="settings.clearNever">Never</li>
+<li class="dd-opt" role="option" data-value="60000" aria-selected="false">After 1 min</li>
+<li class="dd-opt" role="option" data-value="300000" aria-selected="true">After 5 min</li>
+<li class="dd-opt" role="option" data-value="900000" aria-selected="false">After 15 min</li>
+</ul>
+</div>
+</div>
+<div class="setting">
+<div class="card-head">
+<label data-i18n="settings.wipeOnHide">Clear on hide</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="wipe-tip"
+aria-describedby="wipe-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="wipe-tip" role="note" data-i18n="settings.wipeOnHideHint">Wipes the site, the login, the master password and the password on screen when you switch away or the device locks. Saved entries are kept.</span>
+</span>
+</div>
+<label class="switch"><input type="checkbox" id="wipe-on-hide" role="switch" data-i18n-aria="settings.wipeOnHide" aria-label="Clear on hide"></label>
+</div>
+<div class="setting">
+<div class="card-head">
+<label data-i18n="settings.renew">Extend expiry on copy</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="renew-tip"
+aria-describedby="renew-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="renew-tip" role="note" data-i18n="settings.renewHint">Copying a saved password extends its expiry. An entry with its own time is extended by that time.</span>
+</span>
+</div>
+<label class="switch"><input type="checkbox" id="renew-on-copy" role="switch" checked data-i18n-aria="settings.renew" aria-label="Extend expiry on copy"></label>
+</div>
+<div class="setting">
+<div class="card-head">
+<label data-i18n="lock.label">Lock the app</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="lock-tip"
+aria-describedby="lock-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="lock-tip" role="note" data-i18n="lock.help">Locks the app behind your phone's own screen lock, if it has one. Your phone checks it — this app never sees it.</span>
+</span>
+</div>
+<label class="switch"><input type="checkbox" id="app-lock" role="switch" data-i18n-aria="lock.label" aria-label="Lock the app"></label>
+</div>
+<div id="lock-background-row" class="setting nested hidden">
+<div class="card-head">
+<label data-i18n="lock.background.label">Also lock in the background</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="lock-background-tip"
+aria-describedby="lock-background-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="lock-background-tip" role="note" data-i18n="lock.background.help">When on, switching to another app and coming back asks for your screen lock again. When off, only a fresh start of the app asks.</span>
+</span>
+</div>
+<label class="switch"><input type="checkbox" id="app-lock-background" role="switch" data-i18n-aria="lock.background.label" aria-label="Also lock in the background"></label>
+</div>
+<div id="lock-idle-row" class="setting nested hidden">
+<div class="card-head">
+<label id="lock-idle-label" data-i18n="lock.idle.label">Lock after inactivity</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="lock-idle-tip"
+aria-describedby="lock-idle-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="lock-idle-tip" role="note" data-i18n="lock.idle.help">Asks for your screen lock again after this long without a tap or a keypress.</span>
+</span>
+</div>
+<div class="dd">
+<button id="lock-idle" class="select" type="button" role="combobox" aria-haspopup="listbox"
+aria-expanded="false" aria-controls="lock-idle-menu" aria-labelledby="lock-idle-label" data-value="900000">
+<span class="dd-value">After 15 min</span>
+</button>
+<ul id="lock-idle-menu" class="dd-menu" role="listbox" hidden>
+<li class="dd-opt" role="option" data-value="0" aria-selected="false">Never</li>
+<li class="dd-opt" role="option" data-value="60000" aria-selected="false">After 1 min</li>
+<li class="dd-opt" role="option" data-value="300000" aria-selected="false">After 5 min</li>
+<li class="dd-opt" role="option" data-value="900000" aria-selected="true">After 15 min</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<h2 class="card-title">
+<button id="group-options" class="disclose" type="button" aria-expanded="false" aria-controls="group-options-body">
+<span data-i18n="options.title">Generator options</span>
+<svg class="ico chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+</button>
+</h2>
+<div id="group-options-body" class="stack hidden">
+<div class="grid-2">
+<div class="field">
+<div class="card-head">
+<label for="length" data-i18n="length.label">Length (5–35)</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="length-tip"
+aria-describedby="length-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="length-tip" role="note" data-i18n="length.hint">How many characters the password has.</span>
+</span>
+</div>
+<input id="length" class="input" type="number" min="5" max="35" step="1" value="16">
+</div>
+<div class="field">
+<div class="card-head">
+<label for="counter" data-i18n="counter.label">Counter</label>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="counter-tip"
+aria-describedby="counter-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="counter-tip" role="note" data-i18n="counter.hint">Change it to get a different password.</span>
+</span>
+</div>
+<input id="counter" class="input" type="number" min="1" step="1" value="1">
+</div>
+</div>
+<div class="card-head">
+<h2 class="card-title sub-title" data-i18n="classes.title">Character classes</h2>
+<span class="help-wrap">
+<button class="help" type="button" aria-expanded="false" aria-controls="classes-tip"
+aria-describedby="classes-tip" data-i18n-aria="help.more" aria-label="More information">
+<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+</button>
+<span class="tip" id="classes-tip" role="note" data-i18n="classes.hint">Which kinds of characters the password is made of. Each kind you pick is used at least once.</span>
+</span>
+</div>
+<div class="check-row">
+<label class="check"><input type="checkbox" id="c-lowercase" checked data-i18n-aria="class.lowercase" aria-label="lowercase"> <span class="chars" id="pool-lowercase" aria-hidden="true">abcdefghijklmnopqrstuvwxyz</span></label>
+<label class="check"><input type="checkbox" id="c-uppercase" checked data-i18n-aria="class.uppercase" aria-label="uppercase"> <span class="chars" id="pool-uppercase" aria-hidden="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ</span></label>
+<label class="check"><input type="checkbox" id="c-digits" checked data-i18n-aria="class.digits" aria-label="digits"> <span class="chars" id="pool-digits" aria-hidden="true">0123456789</span></label>
+<label class="check"><input type="checkbox" id="c-symbols" checked data-i18n-aria="class.symbols" aria-label="symbols"> <span class="chars" id="pool-symbols" aria-hidden="true">!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~</span></label>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="btn-row">
+<button id="reset-settings" class="btn danger" type="button" data-i18n="settings.resetLabel">Reset settings</button>
+</div>
+<div id="reset-confirm-row" class="btn-row hidden">
+<button id="reset-cancel" class="btn ghost" type="button" data-i18n="action.cancel">Cancel</button>
+<button id="reset-confirm" class="btn danger" type="button" data-i18n="settings.resetLabel">Reset settings</button>
+</div>
+<p id="reset-question" class="note danger hidden" data-i18n="settings.resetConfirm">Reset every setting and clear the screen? Your saved entries are kept.</p>
+</div>
+</section>
+
+<section id="panel-about" class="panel" role="tabpanel" aria-labelledby="tab-about" tabindex="0" hidden>
+<div class="card about">
+<ul class="about-facts">
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-key"/></svg>
+<span data-i18n="about.master">You only need one password. Ever.</span>
+</li>
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg>
+<span data-i18n="about.keep">Set how long a password is kept.</span>
+</li>
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>
+<span data-i18n="about.encrypted">Saved passwords are encrypted.</span>
+</li>
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-copy"/></svg>
+<span data-i18n="about.backup">Export a backup to a new device.</span>
+</li>
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-eye-off"/></svg>
+<span data-i18n="about.remember">Nothing you type leaves this device.</span>
+</li>
+<li class="about-fact">
+<svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>
+<span data-i18n="about.lesspass">The same passwords as LessPass.</span>
+</li>
+</ul>
+</div>
+</section>
+</div>
+
+<div class="tabs" role="tablist" aria-label="Sections" data-i18n-aria="tabs.label" id="tabs">
+<button id="tab-generate" class="tab" role="tab" type="button" aria-selected="true" aria-controls="panel-generate">
+<span class="nav-ico" aria-hidden="true"><svg class="ico"><use href="#i-key"/></svg></span>
+<span class="nav-label" data-i18n="tab.generate">Generate</span>
+</button>
+<button id="tab-entries" class="tab" role="tab" type="button" aria-selected="false" aria-controls="panel-entries"
+tabindex="-1">
+<span class="nav-ico" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span>
+<span class="nav-label" data-i18n="tab.entries">Entries</span>
+</button>
+<button id="tab-settings" class="tab" role="tab" type="button" aria-selected="false" aria-controls="panel-settings"
+tabindex="-1">
+<span class="nav-ico" aria-hidden="true"><svg class="ico"><use href="#i-tune"/></svg></span>
+<span class="nav-label" data-i18n="tab.settings">Settings</span>
+</button>
+<button id="tab-about" class="tab" role="tab" type="button" aria-selected="false" aria-controls="panel-about"
+tabindex="-1">
+<span class="nav-ico" aria-hidden="true"><svg class="ico"><use href="#i-info"/></svg></span>
+<span class="nav-label" data-i18n="tab.about">About</span>
+</button>
+</div>
+</main>
+<div class="toasts" aria-live="polite">
+<p id="status" class="toast"></p>
+<p id="entries-status" class="toast"></p>
+</div>
+<script src="./prepaint.js"></script>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

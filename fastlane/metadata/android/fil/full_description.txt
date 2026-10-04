@@ -1,0 +1,27 @@
+Ginagawa ng TrovePass ang password para sa bawat site at app mo mula sa isang master password — offline, walang account, sa device lang.
+
+ANG GINAGAWA NITO
+
+* Ginagawa ang password ng isang site mula sa master password mo: parehong site, login at mga opsyon ay palaging parehong password — sa anumang device, na walang itinatago.
+* Tandaan ang site, login at mga opsyon na ginamit mo, kaya hindi mo na kailangang tandaan ang counter o mga klase ng karakter sa likod ng isang password.
+* Nagtatago lang ng password kapag pinindot mo ang I-save, at tinatatakan ang itinago gamit ang key na hawak ng device na ito.
+* Ipinapakita ang fingerprint ng master password mo — isang parisukat na tile sa dalawang kulay — para makita ang maling pag-type bago pa magawa ang maling password.
+* Nagsasalita ng 85 wika at hindi humihingi ng anumang pahintulot.
+
+ANG HINDI NITO GINAGAWA
+
+* Walang account, walang sign-in, walang sync, walang telemetry, walang analytics.
+* Walang network code at walang idineklarang pahintulot: wala rito ang kahit anong makakapagpadala ng kahit ano kahit saan.
+* Hindi kailanman itinatago ang master password, sa anumang anyo. Wala ring nagpapabukas sa iyo ng anumang kandado — ang mga itinagong password ay tinatakan ng key na hindi kailanman lumalabas sa device.
+
+PAREHONG PASSWORD SA LESSPASS
+
+Pareho ang paraan ng dalawang app sa paggawa ng password mula sa parehong input, kasama ang mga kakatwang detalye, kaya ang password na ginawa mo sa LessPass ay ang password na ibibigay sa iyo ng TrovePass. Isa itong malayang pagpapatupad ng nailathalang format, hindi isang fork nito.
+
+PARA KANINO
+
+Para sa sinumang mas gusto pang tandaan ang isang master password kaysa limampu: sapat na ang pangalan ng site at ang master password — sa anumang device, nang walang account na bubuuin at walang mawawala kapag nawala ang telepono.
+
+LISENSYA
+
+GPL-3.0-or-later. Ang buong source code ng app na ito ay inilathala sa ilalim ng lisensyang iyon.

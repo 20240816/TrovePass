@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrovePass</string>
+
+    <string name="webview_old_title">Android System WebView is too old</string>
+    <string name="webview_old_body">TrovePass needs a newer Android System WebView. This device has
+        Chromium %1$d, and the app needs %2$d or newer.\n\nUpdating Android System WebView normally
+        happens through the Play Store. On a device without Google services, a WebView provider such as
+        Mulch can be installed from F-Droid.\n\nYour saved entries are untouched.</string>
+
+    <string name="shortcut_generate">Generate</string>
+    <string name="shortcut_entries">Entries</string>
+    <string name="shortcut_settings">Settings</string>
+</resources>

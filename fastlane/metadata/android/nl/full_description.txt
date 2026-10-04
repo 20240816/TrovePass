@@ -1,0 +1,27 @@
+TrovePass leidt het wachtwoord voor al je websites en apps af uit één hoofdwachtwoord — offline, zonder account, alleen op het toestel.
+
+WAT HET DOET
+
+* Leidt het wachtwoord van een site af uit je hoofdwachtwoord: dezelfde site, dezelfde login en dezelfde opties geven altijd hetzelfde wachtwoord, op elk toestel, zonder dat er iets wordt opgeslagen.
+* Onthoudt de site, de login en de opties die je gebruikte, zodat je de teller en de tekenklassen achter een wachtwoord nooit hoeft te onthouden.
+* Bewaart een wachtwoord alleen als je op ‘Bewaren’ drukt, en verzegelt wat bewaard is met een sleutel die alleen dit toestel heeft.
+* Toont een vingerafdruk van je hoofdwachtwoord — een vierkante tegel in twee kleuren — zodat een typefout zichtbaar is voordat het verkeerde wachtwoord wordt afgeleid.
+* Spreekt 85 talen en vraagt geen enkele machtiging.
+
+WAT HET NIET DOET
+
+* Geen account, geen aanmelding, geen synchronisatie, geen telemetrie, geen analytics.
+* Geen netwerkcode en geen aangevraagde machtiging: er is hier niets dat iets ergens heen zou kunnen sturen.
+* Het hoofdwachtwoord wordt nooit opgeslagen, in welke vorm dan ook. Er wordt ook niets van je ontgrendeld: bewaarde wachtwoorden zijn verzegeld met een sleutel die het toestel nooit verlaat.
+
+DEZELFDE WACHTWOORDEN ALS LESSPASS
+
+Beide apps leiden een wachtwoord op precies dezelfde manier uit dezelfde invoer af, eigenaardigheden inbegrepen: een wachtwoord dat je met LessPass hebt gemaakt, is het wachtwoord dat TrovePass je geeft. Dit is een onafhankelijke implementatie van het gepubliceerde formaat, geen fork.
+
+VOOR WIE
+
+Voor wie liever één hoofdwachtwoord onthoudt dan vijftig: een sitenaam en het hoofdwachtwoord zijn genoeg, op elk toestel, zonder account en zonder verlies als de telefoon kwijtraakt.
+
+LICENTIE
+
+GPL-3.0-or-later. De volledige broncode van deze app is onder die licentie gepubliceerd.

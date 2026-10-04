@@ -1,0 +1,27 @@
+TrovePass ricava la password di ciascun sito e applicazione da un'unica password principale: offline, senza account e solo sul dispositivo.
+
+COSA FA
+
+* Ricava la password di un sito dalla tua password principale: lo stesso sito, lo stesso nome utente e le stesse opzioni producono sempre la stessa password, su qualsiasi dispositivo e senza salvare nulla.
+* Ricorda il sito, il nome utente e le opzioni che hai usato, così non devi mai ricordare il contatore e le classi di caratteri dietro a una password.
+* Salva una password solo quando premi «Salva», e sigilla ciò che salvi con una chiave che possiede solo questo dispositivo.
+* Mostra un'impronta della tua password principale — una mattonella quadrata in due colori — perché un refuso si veda prima che venga ricavata la password sbagliata.
+* Parla 85 lingue e non chiede alcun permesso.
+
+COSA NON FA
+
+* Nessun account, nessun accesso, nessuna sincronizzazione, nessuna telemetria, nessuna analisi.
+* Nessun codice di rete e nessun permesso dichiarato: qui non c'è nulla che possa inviare qualcosa da nessuna parte.
+* La password principale non viene mai salvata, in nessuna forma. Nulla ti chiede di sbloccare qualcosa: le password salvate sono sigillate con una chiave che non lascia mai il dispositivo.
+
+LE STESSE PASSWORD DI LESSPASS
+
+Entrambe le applicazioni ricavano una password dagli stessi dati nello stesso identico modo, stranezze incluse: una password generata con LessPass è la password che ti dà TrovePass. Questa è un'implementazione indipendente del formato pubblicato, non un fork.
+
+PER CHI È
+
+Per chi preferisce ricordare una password principale invece di cinquanta: bastano il nome del sito e la password principale, su qualsiasi dispositivo, senza creare account e senza perdere nulla se il telefono sparisce.
+
+LICENZA
+
+GPL-3.0-or-later. Il codice sorgente completo di questa applicazione è pubblicato con quella licenza.

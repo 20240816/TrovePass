@@ -1,0 +1,27 @@
+TrovePass atvasina paroli katrai tavai vietnei un lietotnei no vienas galvenās paroles — bezsaistē, bez konta, tikai ierīcē.
+
+KO TAS DARA
+
+* Atvasina vietnes paroli no tavas galvenās paroles: tā pati vietne, tas pats lietotājvārds un tie paši iestatījumi vienmēr dod to pašu paroli — jebkurā ierīcē, neko nesaglabājot.
+* Atceras vietni, lietotājvārdu un iestatījumus, ko izmantoju, tāpēc nekad nav jāatceras skaitītājs vai rakstzīmju klases aiz paroles.
+* Saglabā paroli tikai tad, kad nospied Saglabāt, un saglabāto aizzīmogo ar atslēgu, ko glabā šī ierīce.
+* Parāda tavas galvenās paroles nospiedumu — divkrāsu kvadrātveida flīzi —, lai ievadīšanas kļūda būtu redzama pirms nepareizas paroles atvasināšanas.
+* Runā 85 valodās un neprasa nevienu atļauju.
+
+KO TAS NEDARA
+
+* Nav konta, nav pierakstīšanās, nav sinhronizācijas, nav telemetrijas, nav analītikas.
+* Nav tīkla koda un nav deklarēta neviena atļauja: šeit nav nekā tāda, kas varētu kaut ko kaut kur nosūtīt.
+* Galvenā parole nekad netiek saglabāta, nekādā formā. Nekas arī neprasa kaut ko atslēgt — saglabātās paroles ir aizzīmogotas ar atslēgu, kas nekad neatstāj ierīci.
+
+TĀDAS PAŠAS PAROLES KĀ LESSPASS
+
+Abas lietotnes atvasina paroli no tiem pašiem datiem pilnīgi vienādi, tostarp dīvainības, tāpēc parole, ko izveidoji LessPass, ir tā parole, ko tev dod TrovePass. Šī ir publicētā formāta neatkarīga realizācija, nevis tā atzars.
+
+KAM TAS DOMĀTS
+
+Ikvienam, kas labāk atceras vienu galveno paroli nekā piecdesmit: vietnes nosaukums un galvenā parole ir pietiekami — jebkurā ierīcē, bez konta izveides un bez kaut kā, ko pazaudēt kopā ar telefonu.
+
+LICENCE
+
+GPL-3.0-or-later. Šīs lietotnes pilnīgais pirmkods ir publicēts saskaņā ar šo licenci.

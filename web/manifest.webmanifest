@@ -1,0 +1,24 @@
+{
+  "name": "TrovePass",
+  "short_name": "TrovePass",
+  "description": "Offline password generator that remembers your logins. No network permission, no accounts, no telemetry.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090e12",
+  "theme_color": "#090e12",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

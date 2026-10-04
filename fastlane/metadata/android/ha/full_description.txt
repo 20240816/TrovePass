@@ -1,0 +1,27 @@
+TrovePass yana ƙirƙirar kalmar sirri ga kowane shafi da manhajar ka daga babbar kalma ɗaya — ba tare da yanar gizo, ba tare da asusu, a cikin na'urar ka kawai.
+
+ABIN DA YAKE YI
+
+* Yana ƙirƙirar kalmar sirrin shafi daga babbar kalmar ka: shafi ɗaya, sunan shiga da zaɓuɓɓuka ɗaya suna bayar da kalmar sirri ɗaya koyaushe — a kowace na'ura, ba tare da adana komai ba.
+* Yana tunawa da shafin, sunan shiga da zaɓuɓɓukan da ka yi amfani da su, don haka ba za ka taɓa buƙatar tunawa da ma'aunin lamba ko rukunin haruffa da ke bayan kalmar sirri ba.
+* Yana adana kalmar sirri ne kawai sa'ad da ka danna Ajiye, kuma yana rufe abin da aka adana da maɓalli da wannan na'urar take riƙe.
+* Yana nuna alamar babbar kalmar ka — fale-falen murabba'i mai launi biyu — domin a gan taɓewar rubutu kafin a ƙirƙiri kalmar sirri mara kyau.
+* Yana magana da harsuna 85 kuma ba ya neman wata izini.
+
+ABIN DA BA YA YI
+
+* Babu asusu, babu shiga, babu daidaitawa, babu awo-labari, babu nazari.
+* Babu lambar yanar gizo kuma babu wata izini da aka bayyana: babu wani abu a nan da zai iya aika komai zuwa ko'ina.
+* Ba a taɓa adana babbar kalmar ba, a kowane nau'i. Babu abin da ke neman ka buɗe wani abu — kalmomin sirri da aka adana an rufe su da maɓalli da ba ya barin na'urar.
+
+KWALMOMIN SIRRI IRIN NA LESSPASS
+
+Dukan manhajojin biyu suna ƙirƙirar kalmar sirri daga bayanai iri ɗaya ta hanya ɗaya sarai, har da abubuwan ban mamaki, don haka kalmar sirrin da ka ƙirƙira a LessPass ita ce kalmar da TrovePass ke ba ka. Wannan aiwatarwa ce mai zaman kanta ta tsarin da aka wallafa, ba reshe ba ne daga gare shi.
+
+WA YA SHAFE
+
+Ga duk wanda ya fi son tunawa da babbar kalma ɗaya maimakon hamsin: sunan shafin da babbar kalmar sun isa — a kowace na'ura, ba tare da buɗe asusu ba kuma babu abin da zai ɓace tare da wayar.
+
+LASISI
+
+GPL-3.0-or-later. An wallafa cikakken lambar tushen wannan manhaja a ƙarƙashin wannan lasisin.

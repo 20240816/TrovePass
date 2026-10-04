@@ -1,0 +1,27 @@
+TrovePass derives a password for each of your websites and apps from a single master password — offline, with no account, on the device alone.
+
+WHAT IT DOES
+
+* Derives a site's password from your master password: the same site, login and options always produce the same password, on any device, with nothing stored.
+* Remembers the site, login and options you used, so you never have to recall the counter and the character classes behind a password.
+* Saves a password only when you press Save on it, and seals what you save with a key this device holds.
+* Shows a fingerprint of your master password — a squared tile in two colours — so a typo is visible before it derives the wrong password.
+* Speaks 85 languages, and asks for no permission of any kind.
+
+WHAT IT DOES NOT DO
+
+* No account, no sign-in, no sync, no telemetry, no analytics.
+* No network code, and no network permission: there is nothing here that could send anything anywhere.
+* The master password is never stored, in any form. Nothing asks you to unlock anything either — saved passwords are sealed with a key that never leaves the device.
+
+THE SAME PASSWORDS AS LESSPASS
+
+Both apps derive a password from the same inputs in exactly the same way, quirks included, so a password you generated with LessPass is the password TrovePass gives you. This is an independent implementation of the published format, not a fork.
+
+WHO IT IS FOR
+
+Anyone who would rather remember one master password than fifty: a site name and the master password are enough, on any device, with no account to create and nothing to lose if the phone is lost.
+
+LICENCE
+
+GPL-3.0-or-later. The complete source of this app is published under that licence.

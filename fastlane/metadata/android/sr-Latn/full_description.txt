@@ -1,0 +1,27 @@
+TrovePass izvodi lozinku za svaki tvoj sajt i aplikaciju iz jedne jedine glavne lozinke — vanmrežno, bez naloga, samo u uređaju.
+
+ŠTA RADI
+
+* Izvodi lozinku sajta iz tvoje glavne lozinke: isti sajt, isto korisničko ime i iste postavke uvek daju istu lozinku — na bilo kom uređaju, bez čuvanja bilo čega.
+* Pamti sajt, korisničko ime i postavke koje si koristio, pa nikada ne moraš da pamtiš brojač ili klase znakova iza lozinke.
+* Čuva lozinku samo kada pritisneš Sačuvaj, a sačuvano zapečati ključem koji drži ovaj uređaj.
+* Prikazuje otisak tvoje glavne lozinke — kvadratnu pločicu u dve boje — da se greška pri kucanju vidi pre nego što se izvede pogrešna lozinka.
+* Govori 85 jezika i ne traži nijednu dozvolu.
+
+ŠTA NE RADI
+
+* Bez naloga, bez prijave, bez sinhronizacije, bez telemetrije, bez analitike.
+* Bez mrežnog koda i bez ijedne deklarisane dozvole: ovde nema ničega što bi moglo nešto negde da pošalje.
+* Glavna lozinka se nikada ne čuva, ni u kom obliku. Ništa te ne traži ni da nešto otključaš — sačuvane lozinke su zapečaćene ključem koji nikada ne napušta uređaj.
+
+ISTE LOZINKE KAO LESSPASS
+
+Obe aplikacije izvode lozinku iz istih ulaznih podataka potpuno isto, uključujući i posebnosti, pa je lozinka koju si napravio u LessPass-u lozinka koju ti TrovePass daje. Ovo je nezavisna realizacija objavljenog formata, a ne njegova grana.
+
+ZA KOGA JE
+
+Za svakoga kome je draže da zapamti jednu glavnu lozinku umesto pedeset: naziv sajta i glavna lozinka su dovoljni — na bilo kom uređaju, bez otvaranja naloga i bez ičega što bi se izgubilo s telefonom.
+
+LICENCA
+
+GPL-3.0-or-later. Ceo izvorni kod ove aplikacije objavljen je pod tom licencom.

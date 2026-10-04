@@ -1,0 +1,27 @@
+TrovePass dérive le mot de passe de chacun de vos sites et applications à partir d'un seul mot de passe maître — hors ligne, sans compte, sur l'appareil uniquement.
+
+CE QU'IL FAIT
+
+* Dérive le mot de passe d'un site à partir de votre mot de passe maître : le même site, le même identifiant et les mêmes options donnent toujours le même mot de passe, sur n'importe quel appareil, sans rien stocker.
+* Retient le site, l'identifiant et les options que vous avez utilisés : vous n'avez jamais à vous rappeler du compteur ni des classes de caractères derrière un mot de passe.
+* N'enregistre un mot de passe que lorsque vous appuyez sur « Enregistrer », et scelle ce qui est enregistré avec une clé que seul cet appareil détient.
+* Affiche une empreinte de votre mot de passe maître — une tuile carrée en deux couleurs — pour qu'une faute de frappe se voie avant de produire le mauvais mot de passe.
+* Parle 85 langues et ne demande aucune autorisation.
+
+CE QU'IL NE FAIT PAS
+
+* Ni compte, ni connexion, ni synchronisation, ni télémétrie, ni analyse.
+* Aucun code réseau et aucune autorisation déclarée : rien ici ne pourrait envoyer quoi que ce soit où que ce soit.
+* Le mot de passe maître n'est jamais stocké, sous aucune forme. Rien ne vous demande non plus de déverrouiller quoi que ce soit : les mots de passe enregistrés sont scellés avec une clé qui ne quitte jamais l'appareil.
+
+LES MÊMES MOTS DE PASSE QUE LESSPASS
+
+Les deux applications dérivent un mot de passe des mêmes entrées exactement de la même façon, bizarreries comprises : un mot de passe généré avec LessPass est celui que TrovePass vous donne. Ceci est une implémentation indépendante du format publié, pas un fork.
+
+POUR QUI C'EST
+
+Pour celles et ceux qui préfèrent retenir un mot de passe maître plutôt que cinquante : un nom de site et le mot de passe maître suffisent, sur n'importe quel appareil, sans compte à créer et sans rien perdre si le téléphone disparaît.
+
+LICENCE
+
+GPL-3.0-or-later. Le code source complet de cette application est publié sous cette licence.

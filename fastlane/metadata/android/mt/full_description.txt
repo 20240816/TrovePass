@@ -1,0 +1,27 @@
+TrovePass joħroġ password għal kull sit u app tiegħek minn password kap wieħed — offline, mingħajr kont, biss fil-mezz.
+
+X'JAGĦMEL
+
+* Joħroġ il-password ta' sit mill-password kap tiegħek: l-istess sit, l-istess login u l-istess għażliet jagħtu dejjem l-istess password — fuq kwalunkwe mezz, mingħajr ma jissejvja xejn.
+* Jiftakar is-sit, il-login u l-għażliet li użajt, allura qatt ma jkollok bżonn tiftakar il-kontatur jew il-klassijiet tal-karattri wara password.
+* Jissejvja password biss meta tagħfas Issejvja, u jissiġilla dak li jissejvja b'ċavetta li żżomm dan il-mezz.
+* Juri impronta tal-password kap tiegħek — madum kwadru f'żewġ kuluri — biex żball tat-tajpjar jidher qabel ma jinħoloq il-password ħażina.
+* Jitkellem 85 lingwa u ma jitlob l-ebda permess.
+
+X'MA JAGĦMELX
+
+* L-ebda kont, l-ebda login, l-ebda sinkronizzazzjoni, l-ebda telemetrija, l-ebda analitika.
+* L-ebda kodiċi tan-netwerk u l-ebda permess iddikjarat: hawn m'hemm xejn li jista' jibgħat xi ħaġa xi mkien.
+* Il-password kap qatt ma tinġabar, fl-ebda forma. Xejn ma jitolbok tiftaħ xi ħaġa lanqas — il-passwords miġbura huma ssiġillati b'ċavetta li qatt ma titlaq mill-mezz.
+
+L-ISTESS PASSWORDS BĦAL LESSPASS
+
+Iż-żewġ apps joħorġu password mill-istess data bl-istess mod eżatt, inklużi l-bizzarrijiet, allura password li ħloqt f'LessPass hija l-password li jagħtik TrovePass. Din hija implimentazzjoni indipendenti tal-format ippubblikat, mhux fergħa tiegħu.
+
+GĦAL MIN HUWA
+
+Għal kull min jippreferi jiftakar password kap wieħed minflok ħamsin: l-isem tas-sit u l-password kap huma biżżejjed — fuq kwalunkwe mezz, mingħajr ma tiftaħ kont u mingħajr xejn li jintilef mat-telefon.
+
+LIĊENZA
+
+GPL-3.0-or-later. Il-kodiċi tas-sors sħiħ ta' din l-app huwa ppubblikat taħt dik il-liċenza.

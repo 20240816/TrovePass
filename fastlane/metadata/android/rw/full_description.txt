@@ -1,0 +1,27 @@
+TrovePass ikora ijambo ry'ibanga ku rubuga rwawe na porogaramu yawe yose mu ijambo ry'ibanga rimwe — hanze y'urubuga, nta konti, mu igikoresho gusa.
+
+IBYO IKORA
+
+* Ikura ijambo ry'ibanga ry'urubuga mu ijambo ry'ibanga ryawe: urubuga rumwe, izina ry'ukoresha rimwe n'amahitamo amwe biha buri gihe ijambo ry'ibanga rimwe — ku gikoresho icyo ari cyo cyose, nta kintu na kimwe kibikwa.
+* Yibuka urubuga, izina ry'ukoresha n'amahitamo wakoresheje, bityo ntuzigera ukenera kwibuka umubare cyangwa ibyiciro by'inyuguti biri inyuma y'ijambo ry'ibanga.
+* Ibika ijambo ry'ibanga gusa iyo ukanda Bika, kandi ibishyizweho ikirango bikoresheje urufunguzo rukiri mu gikoresho.
+* Yerekana akarango k'ijambo ry'ibanga ryawe — urubaho rw'amabara abiri — kugira ngo ikosa ryo kwandika rigaragare mbere y'uko hakorwa ijambo ry'ibanga ritari ryo.
+* Ivuga indimi 85 kandi ntisaba uruhushya na rumwe.
+
+IBYO ITAKORA
+
+* Nta konti, nta kwinjira, nta guhuza, nta telemetiri, nta isesengura.
+* Nta kode y'urubuga kandi nta ruhushya rwatangajwe: nta kintu na kimwe hano gishobora kohereza ikintu ahantu.
+* Ijambo ry'ibanga ntiribikwa na rimwe, mu buryo ubwo ari bwo bwose. Nta kintu na kimwe gisaba ko ufungura ikintu — amajambo y'ibanga yabitswe ashizweho ikirango n'urufunguzo rutava mu gikoresho na rimwe.
+
+AMAJAMBO Y'IBANGA AMWE NKA LESSPASS
+
+Porogaramu zombi zikura ijambo ry'ibanga mu makuru amwe mu buryo bumwe rwose, harimo n'ibitangaza, bityo ijambo ry'ibanga wakoze muri LessPass ni ryo TrovePass iguha. Ubu ni ugushyira mu bikorwa kwigenga kw'uburyo bwatangajwe, ntabwo ari ishami ryabwo.
+
+ABO ARI ABO
+
+Ku muntu wese ukunda kwibuka ijambo ry'ibanga rimwe aho kwibuka mirongo itanu: izina ry'urubuga n'ijambo ry'ibanga birahagije — ku gikoresho icyo ari cyo cyose, utafunguye konti kandi nta kintu gitakara hamwe na telefone.
+
+URUHUSHYA
+
+GPL-3.0-or-later. Kode y'inkomoko yuzuye y'iyi porogaramu yatangajwe hasi y'urwo ruhushya.

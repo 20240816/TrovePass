@@ -1,0 +1,27 @@
+Mae TrovePass yn deillio cyfrinair ar gyfer pob safle ac ap o un prif gyfrinair — all-lein, heb gyfrif, ar y ddyfais yn unig.
+
+BETH MAE'N EI WNEUD
+
+* Mae'n deillio cyfrinair safle o'ch prif gyfrinair: yr un safle, mewngofnod a dewisiadau sy'n rhoi'r un cyfrinair bob tro — ar unrhyw ddyfais, heb gadw dim.
+* Mae'n cofio'r safle, y mewngofnod a'r dewisiadau a ddefnyddioch, felly does byth angen cofio'r rhifydd na'r dosbarthiadau nodau y tu ôl i gyfrinair.
+* Dim ond pan fo'ch yn pwyso Cadw y mae'n cadw cyfrinair, ac mae'n selio'r hyn a gedwir â allwedd y mae'r ddyfais hon yn ei chadw.
+* Mae'n dangos print eich prif gyfrinair — teilsen sgwâr mewn dau liw — fel bod campymeriad teipio i'w weld cyn i'r cyfrinair anghywir gael ei ddeillio.
+* Mae'n siarad 85 iaith ac nid yw'n gofyn am unrhyw ganiatâd.
+
+BETH NAD YW'N EI WNEUD
+
+* Dim cyfrif, dim mewngofnodi, dim cydweddu, dim telemetreg, dim dadansoddeg.
+* Dim cod rhwydwaith ac nid yw'n datgan unrhyw ganiatâd: does dim byd yma a allai anfon unrhyw beth i unrhyw le.
+* Nid yw'r prif gyfrinair byth yn cael ei gadw, mewn unrhyw ffurf. Nid yw'n gofyn i chi ddatgloi unrhyw beth chwaith — mae cyfrineiriau a gedwir wedi'u selio ag allwedd nad yw byth yn gadael y ddyfais.
+
+YR UN CYFRINEIRIAU Â LESSPASS
+
+Mae'r ddau ap yn deillio cyfrinair o'r un mewnbynnau yn union yr un modd, gan gynnwys yr hynodion, felly cyfrinair a grëwyd gennych yn LessPass yw'r cyfrinair y mae TrovePass yn ei roi i chi. Gweithrediad annibynnol o'r fformat cyhoeddedig yw hwn, nid fforc ohono.
+
+AR GYFER PWY
+
+I unrhyw un sy'n well ganddo gofio un prif gyfrinair yn lle hanner cant: mae enw'r safle a'r prif gyfrinair yn ddigon — ar unrhyw ddyfais, heb greu cyfrif a heb ddim i'w golli gyda ffôn.
+
+TRWYDDED
+
+GPL-3.0-or-later. Mae cod ffynhonnell cyflawn yr ap hwn wedi'i gyhoeddi o dan y drwydded honno.

@@ -1,0 +1,27 @@
+TrovePass izpelje geslo za vsako tvoje spletno mesto in aplikacijo iz enega samega glavnega gesla — brez povezave, brez računa, le v napravi.
+
+KAJ POČNE
+
+* Izpelje geslo spletnega mesta iz tvojega glavnega gesla: isto spletno mesto, isto uporabniško ime in iste možnosti vedno dajo isto geslo — v kateri koli napravi, ne da bi karkoli shranil.
+* Si zapomni spletno mesto, uporabniško ime in možnosti, ki si jih uporabil, zato se ni nikoli treba spomniti števca ali razredov znakov za geslom.
+* Shrani geslo le, ko pritisneš Shrani, shranjeno pa zapečati s ključem, ki ga hrani ta naprava.
+* Prikaže odtis tvojega glavnega gesla — dvobarvno kvadratno ploščico — da je tipkarska napaka vidna, preden se izpelje napačno geslo.
+* Govori 85 jezikov in ne zahteva nobenega dovoljenja.
+
+ČESA NE POČNE
+
+* Brez računa, brez prijave, brez sinhronizacije, brez telemetrije, brez analitike.
+* Brez omrežne kode in brez enega samega prijavljenega dovoljenja: tu ni ničesar, kar bi lahko kar koli kam poslalo.
+* Glavno geslo ni nikoli shranjeno, v nobeni obliki. Nič ti tudi ne naroča, da kar koli odkleniš — shranjena gesla so zapečatena s ključem, ki nikoli ne zapusti naprave.
+
+ISTA GESLA KOT LESSPASS
+
+Obe aplikaciji izpeljeta geslo iz istih vhodnih podatkov popolnoma enako, vključno s posebnostmi, zato je geslo, ustvarjeno v LessPassu, geslo, ki ti ga da TrovePass. To je neodvisna izvedba objavljene oblike, ne njeno razvejanje.
+
+ZA KOGA JE
+
+Za vsakogar, ki si raje zapomni eno glavno geslo kot petdeset: ime spletnega mesta in glavno geslo zadoščata — v kateri koli napravi, brez odpiranja računa in brez česarkoli, kar bi se izgubilo s telefonom.
+
+LICENCA
+
+GPL-3.0-or-later. Celotna izvorna koda te aplikacije je objavljena pod to licenco.

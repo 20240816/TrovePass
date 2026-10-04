@@ -1,0 +1,27 @@
+TrovePass leiðir lykilorð fyrir hverja vefsíðu og app út frá einu aðallykilorði — án nettengingar, án reiknings, aðeins í tækinu.
+
+HVAÐ HÚN GERIR
+
+* Leiðir lykilorð vefsíðu út frá aðallykilorðinu þínu: sama vefsíða, sama notandanafn og sömu valkostir gefa alltaf sama lykilorð — á hvaða tæki sem er, án þess að geyma nokkuð.
+* Man vefsíðuna, notandanafnið og valkostina sem þú notaðir, svo þú þarft aldrei að muna teljarann eða stafaklasana að baki lykilorði.
+* Geymir lykilorð aðeins þegar þú ýtir á Vista, og innsiglar það sem vistað er með lykli sem þetta tæki geymir.
+* Sýnir fingrafar aðallykilorðsins þíns — ferningslaga flís í tveimur litum — svo innsláttarvilla sjáist áður en rangt lykilorð er leitt út.
+* Talar 85 tungumál og biður ekki um eitt einasta leyfi.
+
+HVAÐ HÚN GERIR EKKI
+
+* Enginn reikningur, engin innskráning, engin samstilling, engin fjarmæling, engin greining.
+* Enginn netkóði og ekkert skráð leyfi: hér er ekkert sem gæti sent nokkuð eitthvert.
+* Aðallykilorðið er aldrei geymt, í neinu formi. Ekkert biður þig heldur um að opna nokkuð — geymd lykilorð eru innsigluð með lykli sem fer aldrei út úr tækinu.
+
+SÖMU LYKILORÐ OG LESSPASS
+
+Bæði öppin leiða lykilorð út frá sömu inntökum á nákvæmlega sama hátt, sérkennin meðtalin, svo lykilorð sem þú bjóst til í LessPass er það lykilorð sem TrovePass gefur þér. Þetta er sjálfstæð útfærsla á birta sniðinu, ekki grein af því.
+
+FYRIR HVERJA
+
+Fyrir alla sem vilja frekar muna eitt aðallykilorð en fimmtíu: nafn vefsíðunnar og aðallykilorðið duga — á hvaða tæki sem er, án þess að stofna reikning og án nokkurs sem tapast með símanum.
+
+LEYFI
+
+GPL-3.0-or-later. Allur frumkóði þessa apps er birtur samkvæmt því leyfi.

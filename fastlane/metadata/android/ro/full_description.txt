@@ -1,0 +1,27 @@
+TrovePass derivă o parolă pentru fiecare site și aplicație a ta dintr-o singură parolă principală — offline, fără cont, doar în dispozitiv.
+
+CE FACE
+
+* Derivă parola unui site din parola ta principală: același site, același utilizator și aceleași opțiuni dau întotdeauna aceeași parolă — pe orice dispozitiv, fără să salveze nimic.
+* Reține site-ul, utilizatorul și opțiunile pe care le-ai folosit, așa că nu trebuie să memorezi niciodată contorul sau clasele de caractere din spatele unei parole.
+* Salvează o parolă doar când apeși Salvează, iar ce salvează este sigilat cu o cheie pe care acest dispozitiv o păstrează.
+* Arată o urmă a parolei tale principale — o placă pătrată în două culori — ca o greșeală de tastare să se vadă înainte de a fi derivată parola greșită.
+* Vorbește 85 de limbi și nu cere nicio permisiune.
+
+CE NU FACE
+
+* Fără cont, fără autentificare, fără sincronizare, fără telemetrie, fără analize.
+* Fără cod de rețea și fără nicio permisiune declarată: aici nu există nimic care ar putea trimite ceva undeva.
+* Parola principală nu este salvată niciodată, sub nicio formă. Nimic nu-ți cere nici să deblochezi ceva — parolele salvate sunt sigilate cu o cheie care nu părăsește niciodată dispozitivul.
+
+ACEEAȘI PAROLE CA LA LESSPASS
+
+Ambele aplicații derivă parola din aceleași date exact în același fel, inclusiv ciudățeniile, așa că o parolă creată în LessPass este parola pe care ți-o dă TrovePass. Aceasta este o implementare independentă a formatului publicat, nu o ramură a acestuia.
+
+PENTRU CINE ESTE
+
+Pentru oricine preferă să rețină o singură parolă principală în loc de cincizeci: numele site-ului și parola principală sunt de ajuns — pe orice dispozitiv, fără să deschizi cont și fără nimic de pierdut odată cu telefonul.
+
+LICENȚĂ
+
+GPL-3.0-or-later. Codul sursă complet al acestei aplicații este publicat sub acea licență.

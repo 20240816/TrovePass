@@ -1,0 +1,27 @@
+TrovePass hər saytınız və tətbiqiniz üçün tək bir əsas paroldan parol çıxarır — oflayn, hesabsız, yalnız cihazın özündə.
+
+NƏ EDİR
+
+* Saytın parolunu əsas parolunuzdan çıxarır: eyni sayt, istifadəçi adı və seçimlər həmişə eyni parolu verir — istənilən cihazda, heç nə saxlanmadan.
+* İstifadə etdiyiniz saytı, istifadəçi adını və seçimləri yadda saxlayır, beləliklə parolun arxasındakı sayğacı və simvol siniflərini heç vaxt xatırlamaq lazım gəlmir.
+* Parolu yalnız Saxla düyməsinə basdığınız zaman saxlayır və saxladığınızı bu cihazın özündə saxladığı açarla möhürləyir.
+* Əsas parolunuzun izini göstərir — iki rəngdə kvadrat plitə — beləliklə yazı səhvi yanlış parol çıxarılmadan əvvəl görünür.
+* 85 dil bilir və heç bir icazə istəmir.
+
+NƏ ETMİR
+
+* Hesab yox, giriş yox, sinxronizasiya yox, telemetriya yox, analitika yox.
+* Şəbəkə kodu yoxdur və heç bir icazə bildirilməyib: burada heç nəyi heç yerə göndərə biləcək bir şey yoxdur.
+* Əsas parol heç bir formada, heç vaxt saxlanmır. Heç nə sizdən kilid açmağı da istəmir — saxlanan parollar cihazdan heç vaxt çıxmayan açarla möhürlənir.
+
+LESSPASS İLƏ EYNİ PAROLLAR
+
+Hər iki tətbiq parolu eyni girişlərdən tamamilə eyni şəkildə çıxarır, qəribəlikləri də daxil olmaqla; deməli, LessPass ilə yaratdığınız parol TrovePass-ın sizə verdiyi paroldur. Bu, dərc olunmuş formatın müstəqil tətbiqidir, onun nüsxəsi deyil.
+
+KİMLƏR ÜÇÜNDÜR
+
+Əlli parol yerinə tək bir əsas parol yadda saxlamağı üstün tutan hər kəs üçün: saytın adı və əsas parol kifayətdir — istənilən cihazda, hesab yaratmadan və telefon itsə belə itiriləsi heç nə olmadan.
+
+LİSENZİYA
+
+GPL-3.0-or-later. Bu tətbiqin tam mənbə kodu həmin lisenziya ilə dərc olunub.

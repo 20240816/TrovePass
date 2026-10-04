@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="trovepass_icon_bg">#FF000000</color>
+
+    <color name="trovepass_accent" tools:ignore="UnusedResources">#FFFFB000</color>
+
+    <color name="trovepass_chrome_day">#FFE8EDF1</color>
+    <color name="trovepass_chrome_night">#FF090E12</color>
+    <color name="trovepass_chrome">@color/trovepass_chrome_day</color>
+</resources>

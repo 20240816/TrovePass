@@ -1,0 +1,27 @@
+TrovePass nxjerr një fjalëkalim për çdo sajt dhe aplikacion tëndin nga një fjalëkalim i vetëm kryesor — jashtë linje, pa llogari, vetëm në pajisje.
+
+ÇFARË BËN
+
+* Nxjerr fjalëkalimin e një sajti nga fjalëkalimi yt kryesor: i njëjti sajt, i njëjti emër përdoruesi dhe të njëjtat opsione japin gjithmonë të njëjtin fjalëkalim — në çdo pajisje, pa ruajtur asgjë.
+* Kujton sajtin, emrin e përdoruesit dhe opsionet që ke përdorur, kështu që nuk duhet të mbash mend kurrë numëruesin ose klasat e karaktereve pas një fjalëkalimi.
+* Ruan një fjalëkalim vetëm kur shtyp Ruaj, dhe atë që ruan e vulos me një çelës që e mban kjo pajisje.
+* Shfaq një gjurmë të fjalëkalimit tënd kryesor — një pllakë katrore në dy ngjyra — që një gabim shtypi të shihet përpara se të nxirret fjalëkalimi i gabuar.
+* Flet 85 gjuhë dhe nuk kërkon asnjë leje.
+
+ÇFARË NUK BËN
+
+* Pa llogari, pa hyrje, pa sinkronizim, pa telemetri, pa analitikë.
+* Pa kod rrjeti dhe pa asnjë leje të deklaruar: këtu nuk ka asgjë që mund të dërgojë diçka diku.
+* Fjalëkalimi kryesor nuk ruhet kurrë, në asnjë formë. Asgjë nuk të kërkon të hapësh diçka — fjalëkalimet e ruajtura janë vulosur me një çelës që nuk del kurrë nga pajisja.
+
+TË NJËJTAT FJALËKALIME SI LESSPASS
+
+Të dyja aplikacionet nxjerrin fjalëkalimin nga të njëjtat të dhëna në mënyrë krejt të njëjtë, duke përfshirë veçoritë e çuditshme, kështu që një fjalëkalim i krijuar në LessPass është fjalëkalimi që TrovePass të jep. Ky është një zbatim i pavarur i formatit të botuar, jo një degëzim i tij.
+
+PËR KË ËSHTË
+
+Për këdo që preferon të kujtojë një fjalëkalim kryesor në vend të pesëdhjetë: emri i sajtit dhe fjalëkalimi kryesor mjaftojnë — në çdo pajisje, pa hapur llogari dhe pa asgjë që humbet bashkë me telefonin.
+
+LICENCA
+
+GPL-3.0-or-later. Kodi burimor i plotë i këtij aplikacioni botohet nën atë licencë.

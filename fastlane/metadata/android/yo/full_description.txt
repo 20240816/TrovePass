@@ -1,0 +1,27 @@
+TrovePass ń dá ọ̀rọ̀ ìpamọ́ fún ojú-ìwé àti áàpù kọ̀ọ̀kan láti inú ọ̀rọ̀ ìpamọ́ ńlá kan ṣoṣo — láìsí íńtánẹ́ẹ̀tì, láìsí àkọsílẹ̀, nínú ohun èlò nìkan.
+
+OHUN TÓ Ń ṢE
+
+* Ó ń dá ọ̀rọ̀ ìpamọ́ ojú-ìwé kan láti inú ọ̀rọ̀ ìpamọ́ ńlá rẹ: ojú-ìwé kan náà, orúkọ ìwọlé kan náà àti àwọn àṣàyàn kan náà ń fún ni ní ọ̀rọ̀ ìpamọ́ kan náà nígbà gbogbo — lórí ohun èlò èyíkéyìí, láìfi ohunkóhun pamọ́.
+* Ó rántí ojú-ìwé, orúkọ ìwọlé àti àwọn àṣàyàn tí o lò, nítorí náà kò ní pọn dandan láti rántí ẹ̀rọ ìkàwé tàbí àwọn ẹgbẹ́ lẹ́tà tó wà lẹ́yìn ọ̀rọ̀ ìpamọ́.
+* Ó ń fi ọ̀rọ̀ ìpamọ́ pamọ́ nígbà tí o bá tẹ Fipamọ́ nìkan, ó sì fi èdìdì sí ohun tí ó pamọ́ pẹ̀lú kọ́kọ́rọ́ tí ohun èlò yìí gbé.
+* Ó ń fi àmì ọ̀rọ̀ ìpamọ́ ńlá rẹ hàn — páálí onígun mẹ́rin tí ó ní àwọ̀ méjì — kí àṣìṣe títẹ̀ lè hàn kí a tó dá ọ̀rọ̀ ìpamọ́ tí kò tọ́.
+* Ó ń sọ èdè 85, kò sì béèrè fún àṣẹ kankan.
+
+OHUN TÍ KÒ ṢE
+
+* Kò sí àkọsílẹ̀, kò sí ìwọlé, kò sí ìsopọ̀, kò sí ìwádìí ìlò, kò sí ìtúpalẹ̀.
+* Kò sí kóòdù nẹ́tíwọ́kì àti kò sí àṣẹ tí a kéde: kò sí ohun kan níbí tí ó lè fi ohunkóhun ránṣẹ́ sí ibikíbi.
+* A kì í fi ọ̀rọ̀ ìpamọ́ ńlá pamọ́ rárá, ní ọ̀nà èyíkéyìí. Kò sí ohun tí ó ń ní kí o ṣí ohunkóhun — àwọn ọ̀rọ̀ ìpamọ́ tí a pamọ́ ni a fi kọ́kọ́rọ́ tí kì í kúrò ní ohun èlò èdìdì sí.
+
+Ọ̀RỌ̀ ÌPAMỌ́ KAN NÁÀ BÍ TI LESSPASS
+
+Àwọn áàpù méjèèjì ń dá ọ̀rọ̀ ìpamọ́ láti inú ìṣesí kan náà ní ọ̀nà kan náà pátápátá, pẹ̀lú àwọn ohun àrà ọ̀tọ̀, nítorí náà ọ̀rọ̀ ìpamọ́ tí o dá nínú LessPass ni ọ̀rọ̀ ìpamọ́ tí TrovePass ń fún ọ. Èyí ni ìmúṣẹ àdánidá ti ìlànà tí a tẹ̀jáde, kì í ṣe ẹ̀ka rẹ̀.
+
+FÚN TA NI
+
+Fún ẹnikẹ́ni tí ó fẹ́ rántí ọ̀rọ̀ ìpamọ́ ńlá kan dípò àádọ́ta: orúkọ ojú-ìwé àti ọ̀rọ̀ ìpamọ́ ńlá ti tó — lórí ohun èlò èyíkéyìí, láìṣí àkọsílẹ̀ tí a ṣí àti láìsí ohun tí yóò sọnù pẹ̀lú fọ́n.
+
+ÌWÉ ÀṢẸ
+
+GPL-3.0-or-later. Gbogbo kóòdù orísun áàpù yìí ni a tẹ̀jáde lábẹ́ ìwé àṣẹ yẹn.

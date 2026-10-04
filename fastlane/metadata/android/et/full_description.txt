@@ -1,0 +1,27 @@
+TrovePass tuletab ühest peaparoolist parooli iga sinu saidi ja rakenduse jaoks — võrguühenduseta, kontota, ainult seadmes.
+
+MIDA SEE TEEB
+
+* Tuletab saidi parooli sinu peaparoolist: sama sait, kasutajanimi ja valikud annavad alati sama parooli — igal seadmel, ilma et midagi salvestataks.
+* Mäletab saiti, kasutajanime ja valikuid, mida kasutasid, nii et parooli taga olevat loendurit ega märgiklasse ei pea kunagi meeles pidama.
+* Salvestab parooli ainult siis, kui vajutad Salvesta, ja pitseerib salvestatu selle seadme hoitava võtmega.
+* Näitab sinu peaparooli jäljendit — kahevärvilist ruudukujulist plaati —, et trükiviga oleks näha enne, kui tuletatakse vale parool.
+* Räägib 85 keeles ega küsi ühtegi luba.
+
+MIDA SEE EI TEE
+
+* Kontot ei ole, sisselogimist ei ole, sünkroonimist ei ole, telemeetriat ei ole, analüütikat ei ole.
+* Võrgukoodi ei ole ja ühtegi luba ei ole deklareeritud: siin ei ole midagi, mis saaks midagi kuhugi saata.
+* Peaparooli ei salvestata kunagi, mitte mingil kujul. Miski ei palu ka midagi avada — salvestatud paroolid on pitseeritud võtmega, mis ei lahku seadmest kunagi.
+
+SAMAD PAROOLID NAGU LESSPASS
+
+Mõlemad rakendused tuletavad parooli samadest sisenditest täpselt ühtemoodi, iseärasustega kaasa arvatud, nii et LessPassis loodud parool on parool, mille TrovePass sulle annab. See on avaldatud vormingu sõltumatu teostus, mitte selle hargnemine.
+
+KELLELE
+
+Kõigile, kes eelistavad meeles pidada üht peaparooli viiekümne asemel: saidi nimi ja peaparool on piisavad — igal seadmel, ilma konto loomiseta ja ilma millegita, mis läheks telefoniga kaduma.
+
+LITSENTS
+
+GPL-3.0-or-later. Selle rakenduse täielik lähtekood on avaldatud selle litsentsi all.

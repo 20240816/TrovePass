@@ -1,0 +1,27 @@
+TrovePass išveda slaptažodį kiekvienai tavo svetainei ir programai iš vieno pagrindinio slaptažodžio — neprisijungus, be paskyros, tik įrenginyje.
+
+KĄ JIS DARO
+
+* Išveda svetainės slaptažodį iš tavo pagrindinio slaptažodžio: ta pati svetainė, tas pats prisijungimo vardas ir tie patys nustatymai visada duoda tą patį slaptažodį — bet kuriame įrenginyje, nieko nesaugant.
+* Įsimena svetainę, prisijungimo vardą ir nustatymus, kuriuos naudojai, tad niekada nereikia atsiminti skaitiklio ar ženklų klasių, slypinčių už slaptažodžio.
+* Saugo slaptažodį tik tada, kai paspaudi Saugoti, o tai, kas išsaugota, užantspauduoja šio įrenginio laikomu raktu.
+* Parodo tavo pagrindinio slaptažodžio atspaudą — dviejų spalvų kvadratinę plytelę — kad rinkimo klaida būtų matoma prieš išvedant neteisingą slaptažodį.
+* Kalba 85 kalbomis ir neprašo nė vieno leidimo.
+
+KO JIS NEDARO
+
+* Jokios paskyros, jokio prisijungimo, jokio sinchronizavimo, jokios telemetrijos, jokios analitikos.
+* Jokio tinklo kodo ir jokio deklaruoto leidimo: čia nėra nieko, kas galėtų ką nors kur nors nusiųsti.
+* Pagrindinis slaptažodis niekada nesaugomas, jokia forma. Niekas neprašo ir ko nors atrakinti — išsaugoti slaptažodžiai užantspauduoti raktu, kuris niekada nepalieka įrenginio.
+
+TOKIE PAT SLAPTAŽODŽIAI KAIP LESSPASS
+
+Abi programos išveda slaptažodį iš tų pačių duomenų visiškai vienodai, įskaitant keistenybes, tad LessPass sukurtas slaptažodis yra tas slaptažodis, kurį tau duoda TrovePass. Tai nepriklausoma paskelbto formato realizacija, o ne jo atšaka.
+
+KAM SKIRTA
+
+Visiems, kuriems mieliau įsiminti vieną pagrindinį slaptažodį nei penkiasdešimt: svetainės pavadinimo ir pagrindinio slaptažodžio pakanka — bet kuriame įrenginyje, be paskyros kūrimo ir be nieko, ką prarastum kartu su telefonu.
+
+LICENCIJA
+
+GPL-3.0-or-later. Visas šios programos šaltinio kodas paskelbtas pagal šią licenciją.

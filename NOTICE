@@ -1,0 +1,19 @@
+TrovePass — notices
+===================
+
+Copyright (C) 2026 The TrovePass contributors.
+SPDX-License-Identifier: GPL-3.0-or-later
+The licence text is `LICENSE`, verbatim.
+
+TrovePass is an independent implementation of the LessPass password format. The
+salt construction, the character-class pool order and the insertion quirk it
+follows are features of a published format; the code that reproduces them was
+written for this project. No file here is a copy of another project's file.
+
+  Upstream:  https://github.com/lesspass/lesspass
+  Licence:   GPL-3.0
+
+The store listing banner draws the name "TrovePass" from outlines of Noto Sans
+Regular, extracted once from the font file. No font file is shipped or loaded at
+runtime. Noto Sans is under the SIL Open Font License 1.1.
+

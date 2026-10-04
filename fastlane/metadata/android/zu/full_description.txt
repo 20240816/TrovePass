@@ -1,0 +1,27 @@
+I-TrovePass yakha iphasiwedi yesayithi ngayinye kanye nohlelo lwakho kusuka kuphasiwedi eyinhloko eyodwa — ngaphandle kwe-inthanethi, ngaphandle kwe-akhawunti, kudivayisi kuphela.
+
+OKUYENZAYO
+
+* Yakha iphasiwedi yesayithi kusuka kuphasiwedi yakho eyinhloko: isayithi elifanayo, igama lokungena elifanayo kanye nezinketho ezifanayo kunikeza njalo iphasiwedi efanayo — kunoma iyiphi idivayisi, ngaphandle kokugcina lutho.
+* Ikhumbula isayithi, igama lokungena kanye nezinketho ozisebenzisile, ngakho awudingi ukukhumbula isibali noma izigaba zezinhlamvu ezingemuva kwephasiwedi.
+* Igcina iphasiwedi kuphela uma ucindezela Gcina, futhi iyayivala lokho okugciniwe ngokhiye olugcinwa yile divayisi.
+* Ikhombisa umkhondo wephasiwedi yakho eyinhloko — ithayela eliyisikwele elinemibala emibili — ukuze iphutha lokuthayipha libonakale ngaphambi kokuthi kwakhiwe iphasiwedi engalungile.
+* Ikhuluma izilimi ezingama-85 futhi ayiceli ngisho imvume eyodwa.
+
+OKUNGAYENZI
+
+* Awekho ama-akhawunti, akukho ukungena, akukho ukuvumelanisa, akukho i-telemetry, akukho ukuhlaziya.
+* Akukho khodi yenethiwekhi futhi ayikho imvume emenyezelwe: akukho lutho lapha olungathumela noma yini kunoma yikuphi.
+* Iphasiwedi eyinhloko ayigcinwa neze, nganoma iyiphi indlela. Akukho lutho futhi olucela ukuthi uvule okuthile — amaphasiwedi agciniwe avalwe ngokhiye ongaphumi kudivayisi.
+
+AMAPHASIWEDI AFANAYO NEKA LESSPASS
+
+Womabili ama-app akha iphasiwedi kusuka kwidatha efanayo ngendlela efanayo ncamashi, kuhlanganise nezimangaliso, ngakho iphasiwedi owayakha ku-LessPass yiyo leyo i-TrovePass ekunikeza yona. Lokhu kuwukusebenza okuzimele kwesimo esishicilelwe, hhayi igatsha lalo.
+
+OKUKABANI
+
+Kuwukubo bonke abathanda ukukhumbula iphasiwedi eyinhloko eyodwa esikhundleni samashumi amahlanu: igama lesayithi nephasiwedi eyinhloko kwanele — kunoma iyiphi idivayisi, ngaphandle kokuvula i-akhawunti futhi ngaphandle kwalutho oluzolahleka nomakhalekhukhwini.
+
+ILAYISENSE
+
+GPL-3.0-or-later. Ikhodi yomthombo ephelele yale app ishicilelwe ngaphansi kwaleyo layisense.

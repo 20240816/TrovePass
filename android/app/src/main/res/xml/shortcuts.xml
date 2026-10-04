@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+    <shortcut
+        android:shortcutId="generate"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_generate">
+        <intent
+            android:action="dev.trovepass.action.TAB"
+            android:targetPackage="io.github.u_20240816.trovepass"
+            android:targetClass="dev.trovepass.MainActivity">
+            <extra android:name="dev.trovepass.extra.TAB" android:value="generate" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="entries"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_entries">
+        <intent
+            android:action="dev.trovepass.action.TAB"
+            android:targetPackage="io.github.u_20240816.trovepass"
+            android:targetClass="dev.trovepass.MainActivity">
+            <extra android:name="dev.trovepass.extra.TAB" android:value="entries" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_settings">
+        <intent
+            android:action="dev.trovepass.action.TAB"
+            android:targetPackage="io.github.u_20240816.trovepass"
+            android:targetClass="dev.trovepass.MainActivity">
+            <extra android:name="dev.trovepass.extra.TAB" android:value="settings" />
+        </intent>
+    </shortcut>
+</shortcuts>

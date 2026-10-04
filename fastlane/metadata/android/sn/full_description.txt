@@ -1,0 +1,27 @@
+TrovePass inogadzira password yepasite yega yega neapp yega yega kubva papassword huru imwe chete — pasina indaneti, pasina akaundi, mukati memuchina chete.
+
+ZVAINOITA
+
+* Inogadzira password yepasite kubva papassword huru yako: pasite imwe chete, zita rekupinda rimwe chete nemasarudzirwo akafanana zvinogara zvichipa password imwe chete — pamuchina upi neupi, pasina chakachengetwa.
+* Inorangarira pasite, zita rekupinda nemasarudzirwo awakashandisa, saka haufaniri kuzorangarira kaunzi kana mapoka emavara ari kuseri kwepassword.
+* Inochengeta password chete paunobaya Chengetedza, uye inosimbisa zvakachengetwa nekiyi inobatwa nemuchina uyu.
+* Inoratidza mucherechedzo wepassword huru yako — tirairi yakaenzana ine mavara maviri — kuti chikanganiso chekutaipa chionekwe password isati yagadzirwa isiri iyo.
+* Inotaura mitauro 85 uye haikumbiri mvumo imwe chete.
+
+ZVAISINGAITE
+
+* Hapana akaundi, hapana kupinda, hapana kuwiriranisa, hapana telemetry, hapana ongororo.
+* Hapana kodhi yetiweki uye hapana mvumo yakaziviswa: hapana chinhu pano chingatumira chimwe chinhu kupi nekupi.
+* Password huru haichengetwi nokusingaperi, muchimiro chipi nechipi. Hapana chinokumbirawo kuti uvhure chimwe chinhu — mapassword akachengetwa akasimbiswa nekiyi isingambosiya muchina.
+
+MAPASSWORD AKAFANANA NEA LESSPASS
+
+App mbiri idzi dzinogadzira password kubva kune zvakafanana nenzira yakafanana chaizvo, kusanganisira zvinoshamisa, saka password yawakagadzira muLessPass ndiyo password iyo TrovePass inokupa. Uku kuita kwakazvimirira kwechimiro chakaburitswa, kwete bazi raro.
+
+NDEYAANI
+
+Kune wese anoda kuyeuka password huru imwe chete pane makumi mashanu: zita repasite nepassword huru zvinokwana — pamuchina upi neupi, usina kuvhura akaundi uye pasina chinhu chingarasika nefoni.
+
+REZINESI
+
+GPL-3.0-or-later. Kodhi yose yekutanga yeapp iyi yakaburitswa pasi pezinesi iyoyo.

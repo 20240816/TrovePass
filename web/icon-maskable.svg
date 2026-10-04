@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- SPDX-FileCopyrightText: 2026 The TrovePass contributors -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+<rect width="108" height="108" fill="#000000"/>
+<path d="M34.37,31.91L73.64,31.91L81,48.27L54,76.09L27,48.27zM27,48.27L27.37,47.45L80.63,47.45L81,48.27L77.83,51.55L30.17,51.55zM43.23,31.91L48.89,47.45L44.53,47.45L38.87,31.91zM50.38,51.55L57.86,72.11L54.7,75.37L46.02,51.55z" fill="#ffb000" fill-rule="evenodd"/>
+</svg>

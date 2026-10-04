@@ -1,0 +1,27 @@
+TrovePass wyprowadza hasło dla każdej Twojej witryny i aplikacji z jednego hasła głównego — offline, bez konta, wyłącznie w urządzeniu.
+
+CO ROBI
+
+* Wyprowadza hasło witryny z Twojego hasła głównego: ta sama witryna, ten sam login i te same opcje zawsze dają to samo hasło — na dowolnym urządzeniu, bez zapisywania czegokolwiek.
+* Pamięta witrynę, login i opcje, których użyłeś, więc nigdy nie musisz pamiętać licznika ani klas znaków kryjących się za hasłem.
+* Zapisuje hasło tylko wtedy, gdy naciśniesz Zapisz, a zapisane pieczętuje kluczem, który trzyma to urządzenie.
+* Pokazuje odcisk Twojego hasła głównego — dwukolorowy kwadratowy kafelek — żeby literówka była widoczna, zanim zostanie wyprowadzone złe hasło.
+* Mówi w 85 językach i nie prosi o żadne uprawnienie.
+
+CZEGO NIE ROBI
+
+* Żadnego konta, żadnego logowania, żadnej synchronizacji, żadnej telemetrii, żadnej analityki.
+* Żadnego kodu sieciowego i żadnego zadeklarowanego uprawnienia: nie ma tu nic, co mogłoby cokolwiek gdziekolwiek wysłać.
+* Hasło główne nigdy nie jest zapisywane, w żadnej formie. Nic też nie każe Ci czegokolwiek odblokowywać — zapisane hasła są zapieczętowane kluczem, który nigdy nie opuszcza urządzenia.
+
+TE SAME HASŁA CO LESSPASS
+
+Obie aplikacje wyprowadzają hasło z tych samych danych dokładnie w ten sam sposób, wraz z osobliwościami, więc hasło utworzone w LessPass to hasło, które daje Ci TrovePass. To niezależna implementacja opublikowanego formatu, a nie jego fork.
+
+DLA KOGO
+
+Dla każdego, kto woli zapamiętać jedno hasło główne niż pięćdziesiąt: nazwa witryny i hasło główne wystarczą — na dowolnym urządzeniu, bez zakładania konta i bez niczego, co przepadłoby wraz z telefonem.
+
+LICENCJA
+
+GPL-3.0-or-later. Pełny kod źródłowy tej aplikacji został opublikowany na tej licencji.
